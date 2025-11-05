@@ -1,5 +1,8 @@
 ---
 title: "Mason Kellerman"
+format:
+  html:
+    css: styles.css
 ---
 
 

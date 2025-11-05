@@ -11,6 +11,6 @@
     "href": "index.html",
     "title": "Mason Kellerman",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 3\n\n[1] 4\n\n\n\nrunif(10)\n\n [1] 0.8859062 0.1132761 0.1052289 0.9349354 0.3067789 0.4762554 0.4326595\n [8] 0.5570698 0.6531999 0.8825795\n\n\n“like Istanbul had it been designed by idiots”"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 3\n\n[1] 4\n\n\n\nrunif(10)\n\n [1] 0.4624545 0.2147097 0.8401113 0.6201870 0.7191149 0.2642613 0.9487261\n [8] 0.8031733 0.1422678 0.9855176\n\n\n“like Istanbul had it been designed by idiots”"
   }
 ]
