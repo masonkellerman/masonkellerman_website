@@ -7,7 +7,11 @@ website:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: Information
+        text: About Me
+      - href: education.qmd
+        text: Education
+      - href: projects.qmd
+        text: Projects
 
 format:
   html:
