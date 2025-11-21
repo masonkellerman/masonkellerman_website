@@ -23,7 +23,7 @@ format:
     css: styles.css
 ---
 
-
+I HATE CODING WEBSITES HAHAHAHA
 
 This is a Quarto website. test of [resume](resume.pdf) well i thought that would work.
 
