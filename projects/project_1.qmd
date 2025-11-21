@@ -1,0 +1,6 @@
+---
+title: "project 1: electric boogaloo 1"
+image: "projimages/evilrabbit_1.png"
+image-alt: "an illustrated image of an evil horror-core rabbit"
+format: html
+---

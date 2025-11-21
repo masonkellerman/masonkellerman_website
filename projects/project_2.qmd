@@ -1,0 +1,6 @@
+---
+title: "project 2: electric boogaloo 2"
+image: "projimages/evilrabbit_2.jpg"
+image-alt: "an illustrated image of an evil rabbit kinda like suicide squad style"
+format: html
+---

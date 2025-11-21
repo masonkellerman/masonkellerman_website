@@ -1,0 +1,7 @@
+---
+title: "project 3: electric boogaloo 3"
+image: "projimages/evilrabbit_3.jpg"
+image-alt: "an illustrated image of an evil rabbit with blade and the horror hockey mask thing"
+format: html
+---
+

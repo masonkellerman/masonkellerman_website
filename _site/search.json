@@ -1,16 +1,23 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mason Kellerman",
+    "section": "",
+    "text": "Bio"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "",
+    "section": "",
+    "text": "My projects about evil animals, with an emphasis on rabbits and rabbit-related animals\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nproject 1: electric boogaloo 1\n\n\n\n\n\n\n\n\n\n\n\n\nproject 2: electric boogaloo 2\n\n\n\n\n\n\n\n\n\n\n\n\nproject 3: electric boogaloo 3\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Mason Kellerman",
-    "section": "",
-    "text": "I HATE CODING WEBSITES HAHAHAHA\nThis is a Quarto website. test of resume well i thought that would work.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 3\n\n[1] 4\n\n\n\nrunif(10)\n\n [1] 0.73794329 0.42735629 0.57527538 0.07690815 0.95950141 0.85426819\n [7] 0.33447733 0.50338280 0.18520396 0.66063422\n\n\n“like Istanbul had it been designed by idiots”"
   }
 ]

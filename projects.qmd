@@ -1,0 +1,22 @@
+---
+toc: FALSE
+listing:
+  - id: project-listing
+    contents: 
+      - "/projects/*.qmd"
+    sort: FALSE
+    sort-ui: FALSE
+    filter-ui: TRUE
+    type: grid
+    fields: 
+      - title
+      - image
+    categories: false
+---
+
+My projects about evil animals, with an emphasis on rabbits and rabbit-related animals
+
+:::project-listing
+:::
+
+
