@@ -1,5 +1,22 @@
 ---
 title: "Mason Kellerman"
+about: 
+  template: trestles
+  image: pfp.png
+  links: 
+    - icon: github
+      text: Github
+      href: https://github.com/masonkellerman
+    - icon: linkedin
+      text: LinkedIn
+      url: "https://linkedin.com"
+    - text: Email
+      url: "mailto:masonkellerman1@gmail.com"
+      icon: bi-envelope-fill
+    - icon: bi-file-earmark-arrow-down-fill
+      text: CV
+      url: "cv.pdf"
+toc: FALSE
 format:
   html:
     css: styles.css

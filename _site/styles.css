@@ -1,9 +1,10 @@
 /* css styles */
 
-/* add atkinson hyperlegible font */
+/* add and use  atkinson hyperlegible font from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next&display=swap');
 
 body {
   font-family: "Atkinson Hyperlegible Next", sans-serif;
   font-weight: 575;
 }
+
