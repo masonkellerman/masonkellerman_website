@@ -17,8 +17,8 @@ about:
     - icon: bi-file-earmark-arrow-down-fill
       text: resume
       url: "resume.pdf"
-comments: FALSE
-toc: FALSE
+comments: false
+toc: false
 format:
   html:
     css: styles.css

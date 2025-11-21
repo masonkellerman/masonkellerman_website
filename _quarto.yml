@@ -4,6 +4,9 @@ project:
 website:
   title: ""
   favicon: "favicon_white.png"
+  page-footer: 
+    left: "made by me at some point"
+    right: "[additional site information](siteinfo.qmd)"
   navbar:
     logo: "favicon_gray24.png"
     logo_alt: 'An icon, a styleized monograph of the letter "K" inside an "M" (also the site favicon).'
@@ -16,12 +19,12 @@ website:
         text: Education
       - href: projects.qmd
         text: Projects
+        
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
 
 

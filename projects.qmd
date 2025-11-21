@@ -1,12 +1,12 @@
 ---
-toc: FALSE
+toc: false
 listing:
   - id: project-listing
     contents: 
       - "/projects/*.qmd"
-    sort: FALSE
-    sort-ui: FALSE
-    filter-ui: TRUE
+    sort: false
+    sort-ui: false
+    filter-ui: true
     type: grid
     fields: 
       - title

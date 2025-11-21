@@ -1,0 +1,31 @@
+---
+title: "siteinfo"
+format: 
+  html:
+    body-class: siteinfo
+include-after-body: 
+  text: |
+    <style>
+    footer.footer {
+      display: none;
+    }
+    </style>
+    <footer class="custom-footer">
+      Your custom footer content here
+    </footer>
+---
+
+# About the site
+
+The current build is from `r format(Sys.time(),'%d %B %Y')`.
+
+
+
+
+```{r}
+#| include: false
+# make the r code work...couldn't figure out a legit fix...
+```
+
+::: {.footer}
+:::

@@ -1,10 +1,31 @@
 [
   {
+    "objectID": "education.html",
+    "href": "education.html",
+    "title": "education",
+    "section": "",
+    "text": "Highlighted degrees and experiences from my educational journey:"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Mason Kellerman",
     "section": "",
     "text": "Bio"
+  },
+  {
+    "objectID": "projects/project_3.html",
+    "href": "projects/project_3.html",
+    "title": "project 3: electric boogaloo 3",
+    "section": "",
+    "text": "hello"
+  },
+  {
+    "objectID": "siteinfo.html",
+    "href": "siteinfo.html",
+    "title": "siteinfo",
+    "section": "",
+    "text": "About the site\nThe current build is from 21 November 2025."
   },
   {
     "objectID": "projects.html",
