@@ -23,9 +23,9 @@
   {
     "objectID": "siteinfo.html",
     "href": "siteinfo.html",
-    "title": "siteinfo",
+    "title": "Site Information",
     "section": "",
-    "text": "About the site\nThe current build is from 22 November 2025."
+    "text": "The current build is from 28 November 2025.\nI built the website using Quarto pages. It is hosted with Netlify, and the source code can be found on the public GitHub repo here."
   },
   {
     "objectID": "projects.html",

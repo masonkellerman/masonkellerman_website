@@ -3,12 +3,9 @@ project:
 
 website:
   title: ""
-  favicon: "favicon_white.png"
-  page-footer: 
-    left: "made by me at some point"
-    right: "[additional site information](siteinfo.qmd)"
+  favicon: "favicon/favicon_white.png"
   navbar:
-    logo: "favicon_gray24.png"
+    logo: "favicon/favicon_gray24.png"
     logo_alt: 'An icon, a styleized monograph of the letter "K" inside an "M" (also the site favicon).'
     left:
       - href: index.qmd
@@ -19,6 +16,9 @@ website:
         text: Education
       - href: projects.qmd
         text: Projects
+  page-footer: 
+    left: "made by me at some point"
+    right: "[additional site information](siteinfo.qmd)"
         
 
 format:

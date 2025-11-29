@@ -1,5 +1,5 @@
 ---
-title: "siteinfo"
+title: "Site Information"
 format: 
   html:
     body-class: siteinfo
@@ -11,13 +11,14 @@ include-after-body:
     }
     </style>
     <footer class="custom-footer">
-      Your custom footer content here
     </footer>
 ---
 
-# About the site
+
 
 The current build is from `r format(Sys.time(),'%d %B %Y')`.
+
+I built the website using [Quarto](https://quarto.org/docs/websites/) pages. It is hosted with [Netlify](https://app.netlify.com/), and the source code can be found on the public GitHub repo [here](https://github.com/masonkellerman/masonkellerman_website/). 
 
 
 
