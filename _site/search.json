@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Mason Kellerman",
     "section": "",
-    "text": "Bio\nI LOVE ANGELINA BALLERINA MUSCATINA &lt;3"
+    "text": "I currently attend the University of California, Los Angeles, and will be graduating this spring with Psychology, B.A. and Statistics & Data Science, B.S. degrees, with a minor in Educational Studies.\nI am focused on designing effective measures/assessments which enable effective and consistent causal conclusions about psychometric features. I care about making a positive impact on individuals with my work through affecting institutional progress. More information about me can be found in my resume.\nI am interested in opportunities that further this vision; I appreciate all outreach :)"
   },
   {
     "objectID": "projects/project_3.html",
@@ -25,7 +25,7 @@
     "href": "siteinfo.html",
     "title": "Site Information",
     "section": "",
-    "text": "The current build is from 28 November 2025.\nI built the website using Quarto pages. It is hosted with Netlify, and the source code can be found on the public GitHub repo here."
+    "text": "The current build is from 29 November 2025.\nThe website was created by me using Quarto pages. It is hosted with Netlify, and the source code can be found on the public GitHub repo here.\nThe site typeface is Atkinson Hyperlegible Next, an accessibility-focused design created by the Braile Institute (more information here).\nSignificant thanks to Jose Toledo Luna’s instructions, which provided much needed instruction."
   },
   {
     "objectID": "projects.html",

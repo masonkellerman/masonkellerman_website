@@ -9,21 +9,22 @@ website:
     logo_alt: 'An icon, a styleized monograph of the letter "K" inside an "M" (also the site favicon).'
     left:
       - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About Me
+        text: About
       - href: education.qmd
         text: Education
       - href: projects.qmd
         text: Projects
   page-footer: 
-    left: "made by me at some point"
+    left: "made by me"
     right: "[additional site information](siteinfo.qmd)"
         
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      - cosmo
+      - custom.scss
+    max-width: 100%
     css: styles.css
     toc: true
 

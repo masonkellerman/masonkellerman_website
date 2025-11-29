@@ -18,8 +18,11 @@ include-after-body:
 
 The current build is from `r format(Sys.time(),'%d %B %Y')`.
 
-I built the website using [Quarto](https://quarto.org/docs/websites/) pages. It is hosted with [Netlify](https://app.netlify.com/), and the source code can be found on the public GitHub repo [here](https://github.com/masonkellerman/masonkellerman_website/). 
+The website was created by me using [Quarto](https://quarto.org/docs/websites/) pages. It is hosted with [Netlify](https://app.netlify.com/), and the source code can be found on the public GitHub repo [here](https://github.com/masonkellerman/masonkellerman_website/). 
 
+The site typeface is [Atkinson Hyperlegible Next](https://fonts.google.com/specimen/Atkinson+Hyperlegible+Next), an accessibility-focused design created by the Braile Institute (more information [here](https://www.brailleinstitute.org/freefont/)). 
+
+Significant thanks to [Jose Toledo Luna](https://toledo-luna.com/)'s instructions, which provided much needed instruction.
 
 
 
@@ -27,6 +30,3 @@ I built the website using [Quarto](https://quarto.org/docs/websites/) pages. It 
 #| include: false
 # make the r code work...couldn't figure out a legit fix...
 ```
-
-::: {.footer}
-:::
