@@ -1,6 +1,37 @@
 ---
-title: "project 1: electric boogaloo 1"
-image: "projimages/evilrabbit_1.png"
+title: "Sports Sabermetric Predictive Comparison Report*"
+image: "projimages/proj1/cover.png"
 image-alt: "an illustrated image of an evil horror-core rabbit"
 format: html
+toc: false
 ---
+
+
+
+*\*IN PROGRESS*
+
+<big>**Download the Report [here](/inprogress.qmd)**</big> (`.pdf`)  
+<small>(get source file [here](/inprogress.qmd)) (`.tex`)</small> 
+
+<div style="height: 10px;"></div>
+<hr>
+
+
+This project focused on comparing the predictive abilities of different classes of sabermetric statistics in sports. Using 2025 WNBA data, I developed classification models with the goal of predicting a win/loss outcomes.
+
+Sport fans will be familiar with the divide between classic, "old-school" statistical categories and new, "sabermetric" metrics designed to be a more advanced indicator of performance. Often, one set of these statistics will be favored over others, by both casual fans and award voters alike. 
+
+This project seeks to determine whether advanced or basic team statistical categories in sports is more predictive of team success at the team level. The resulting [report](/inprogress.qmd) will show the modeling strategies, test outputs, and corresponding conclusions.
+
+<div style="height: 10px;"></div>
+<hr>
+<div style="height: 10px;"></div>
+
+Graphical results (to be updated later):
+![](projimages/proj1/test_graph.png){fig-alt="Stacked boxplots showing the spread for 5 different measures centered around WNBA 3 point shooting percentage"}
+
+
+
+
+
+

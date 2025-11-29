@@ -1,4 +1,5 @@
 ---
+title: "Projects"
 toc: false
 listing:
   - id: project-listing
@@ -14,9 +15,15 @@ listing:
     categories: false
 ---
 
-My projects about evil animals, with an emphasis on rabbits and rabbit-related animals
+
+
+Some selected projects I have completed or am in the process of completing. More information is included on each page.
+
+<small>* In Progress</small>
 
 :::project-listing
 :::
+
+
 
 

@@ -1,12 +1,20 @@
 /* css styles */
 
+
 /* add and use  atkinson hyperlegible font from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono&display=swap');
+
 
 body {
   font-family: "Atkinson Hyperlegible Next", sans-serif;
   font-weight: 575;
 }
+
+code, pre, tt, kbd, samp {
+  font-family: "Atkinson Hyperlegible Mono", monospace;
+}
+
 
 /* do left/right justified text */
 .two-col {
@@ -15,4 +23,10 @@ body {
   width: 100%;
 }
 
+
+/* change monospace font colors */
+.sqs-block-html pre code {
+background-color: #eeeee2;
+font-family: "Atkinson Hyperlegible Mono" !important;
+}
 

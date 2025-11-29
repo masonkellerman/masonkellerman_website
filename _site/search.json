@@ -9,30 +9,58 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "",
+    "title": "Projects",
     "section": "",
-    "text": "My projects about evil animals, with an emphasis on rabbits and rabbit-related animals\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nproject 1: electric boogaloo 1\n\n\n\n\n\n\n\n\n\n\n\n\nproject 2: electric boogaloo 2\n\n\n\n\n\n\n\n\n\n\n\n\nproject 3: electric boogaloo 3\n\n\n\n\n\nNo matching items"
+    "text": "Some selected projects I have completed or am in the process of completing. More information is included on each page.\n* In Progress\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSports Sabermetric Predictive Comparison Report*\n\n\n\n\n\n\n\n\n\n\n\n\nproject 2: electric boogaloo 2\n\n\n\n\n\n\n\n\n\n\n\n\nproject 3: electric boogaloo 3\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "education_experiences.html",
     "href": "education_experiences.html",
     "title": "Education & Experience",
     "section": "",
-    "text": "University of California, Los Angeles\n\n\n(3.993 GPA)\n\n\n\nPsychology, B.A.\n\nStatistics & Data Science, B.S.\n\nEducational Studies Minor"
+    "text": "University of California, Los Angeles\n\n\n(3.993 GPA)\n\n\n\n\nExpected March 2026\n\n\n\n\n\n\nPsychology, B.A.\n\nStatistics & Data Science, B.S.\n\nEducational Studies Minor\n\n\n\n\n\n\nR and RStudio\n\nggplot2, tidyverse, mlr3\n\nPsychometric Measure Development/Assessment\nMultivariate Statistical Analysis\nQuasi-Experimental Methods\nEducationa Program Evaluation\nPredictive Regression Modeling Methods\nFamiliarity with Bayesian Statistical Methods\nFamiliarity with \\(\\LaTeX\\), Python, SQL"
+  },
+  {
+    "objectID": "education_experiences.html#degrees",
+    "href": "education_experiences.html#degrees",
+    "title": "Education & Experience",
+    "section": "",
+    "text": "University of California, Los Angeles\n\n\n(3.993 GPA)\n\n\n\n\nExpected March 2026\n\n\n\n\n\n\nPsychology, B.A.\n\nStatistics & Data Science, B.S.\n\nEducational Studies Minor"
+  },
+  {
+    "objectID": "education_experiences.html#skills-coursework",
+    "href": "education_experiences.html#skills-coursework",
+    "title": "Education & Experience",
+    "section": "",
+    "text": "R and RStudio\n\nggplot2, tidyverse, mlr3\n\nPsychometric Measure Development/Assessment\nMultivariate Statistical Analysis\nQuasi-Experimental Methods\nEducationa Program Evaluation\nPredictive Regression Modeling Methods\nFamiliarity with Bayesian Statistical Methods\nFamiliarity with \\(\\LaTeX\\), Python, SQL"
   },
   {
     "objectID": "siteinfo.html",
     "href": "siteinfo.html",
     "title": "Site Information",
     "section": "",
-    "text": "The current build is from 29 November 2025.\nThe website was created by me using Quarto pages. It is hosted with Netlify, and the source code can be found on the public GitHub repo here.\nThe site typeface is Atkinson Hyperlegible Next, an accessibility-focused design created by the Braile Institute (more information here).\nSignificant thanks to Jose Toledo Luna’s instructions, which provided much needed instruction."
+    "text": "The current build is from 29 November 2025.\nThe website was created by me using Quarto pages. It is hosted with Netlify, and the source code can be found on the public GitHub repo here.\nThe site typeface is Atkinson Hyperlegible Next (and Atkinson Hyperlegible Mono), an accessibility-focused design created by the Braile Institute (more information here).\nSignificant thanks to Jose Toledo Luna’s instructions, which provided much needed instruction."
+  },
+  {
+    "objectID": "inprogress.html",
+    "href": "inprogress.html",
+    "title": "",
+    "section": "",
+    "text": "Well…😔\nUnfortunately the page you wanted is unavailable. One of the following is likely true\n\nThe site is broken somehow\n\ni.e., I messed something up :(\n\nThe item is in progress. I’ll update it when completed.\n\nReach out to me for more details :)\n\n\nThanks, and my apologies"
+  },
+  {
+    "objectID": "projects/project_1.html",
+    "href": "projects/project_1.html",
+    "title": "Sports Sabermetric Predictive Comparison Report*",
+    "section": "",
+    "text": "*IN PROGRESS\nDownload the Report here (.pdf)\n(get source file here) (.tex)\n\n\n\n\nThis project focused on comparing the predictive abilities of different classes of sabermetric statistics in sports. Using 2025 WNBA data, I developed classification models with the goal of predicting a win/loss outcomes.\nSport fans will be familiar with the divide between classic, “old-school” statistical categories and new, “sabermetric” metrics designed to be a more advanced indicator of performance. Often, one set of these statistics will be favored over others, by both casual fans and award voters alike.\nThis project seeks to determine whether advanced or basic team statistical categories in sports is more predictive of team success at the team level. The resulting report will show the modeling strategies, test outputs, and corresponding conclusions.\n\n\n\n\n\n\n\nGraphical results (to be updated later):"
   },
   {
     "objectID": "projects/project_3.html",
     "href": "projects/project_3.html",
     "title": "project 3: electric boogaloo 3",
     "section": "",
-    "text": "hello"
+    "text": "hell"
   },
   {
     "objectID": "index.html",
@@ -40,26 +68,5 @@
     "title": "Mason Kellerman",
     "section": "",
     "text": "I currently attend the University of California, Los Angeles, and will be graduating this spring with Psychology, B.A. and Statistics & Data Science, B.S. degrees, with a minor in Educational Studies.\nI am interested in on designing effective measures/assessments which enable effective and consistent causal conclusions about underlying features. I care about making a positive impact on individuals with my work through affecting institutional progress. More information about me can be found in my resume.\nI am interested in opportunities that further this vision; I appreciate all outreach :)"
-  },
-  {
-    "objectID": "education_experiences.html#degrees",
-    "href": "education_experiences.html#degrees",
-    "title": "Education & Experience",
-    "section": "Degrees",
-    "text": "Degrees\n\n\nUniversity of California, Los Angeles\n\n\n(3.993 GPA)\n\n\n\n\nExpected March 2026\n\n\n\n\n\n\nPsychology, B.A.\n\nStatistics & Data Science, B.S.\n\nEducational Studies Minor"
-  },
-  {
-    "objectID": "education_experiences.html#relevant-courses",
-    "href": "education_experiences.html#relevant-courses",
-    "title": "Education & Experience",
-    "section": "Relevant Courses",
-    "text": "Relevant Courses"
-  },
-  {
-    "objectID": "education_experiences.html#skills-coursework",
-    "href": "education_experiences.html#skills-coursework",
-    "title": "Education & Experience",
-    "section": "Skills & Coursework",
-    "text": "Skills & Coursework\n\nR and RStudio\n\nggplot2, tidyverse, mlr3\n\nPsychometric Measure Development/Assessment\nMultivariate Statistical Analysis\nQuasi-Experimental Methods\nEducationa Program Evaluation\nPredictive Regression Modeling Methods\nFamiliarity with Bayesian Statistical Methods\nFamiliarity with \\(\\LaTeX\\), Python, SQL"
   }
 ]
