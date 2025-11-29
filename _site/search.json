@@ -1,31 +1,10 @@
 [
   {
-    "objectID": "education.html",
-    "href": "education.html",
-    "title": "education",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Highlighted degrees and experiences from my educational journey:"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Mason Kellerman",
-    "section": "",
-    "text": "I currently attend the University of California, Los Angeles, and will be graduating this spring with Psychology, B.A. and Statistics & Data Science, B.S. degrees, with a minor in Educational Studies.\nI am focused on designing effective measures/assessments which enable effective and consistent causal conclusions about psychometric features. I care about making a positive impact on individuals with my work through affecting institutional progress. More information about me can be found in my resume.\nI am interested in opportunities that further this vision; I appreciate all outreach :)"
-  },
-  {
-    "objectID": "projects/project_3.html",
-    "href": "projects/project_3.html",
-    "title": "project 3: electric boogaloo 3",
-    "section": "",
-    "text": "hello"
-  },
-  {
-    "objectID": "siteinfo.html",
-    "href": "siteinfo.html",
-    "title": "Site Information",
-    "section": "",
-    "text": "The current build is from 29 November 2025.\nThe website was created by me using Quarto pages. It is hosted with Netlify, and the source code can be found on the public GitHub repo here.\nThe site typeface is Atkinson Hyperlegible Next, an accessibility-focused design created by the Braile Institute (more information here).\nSignificant thanks to Jose Toledo Luna’s instructions, which provided much needed instruction."
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "projects.html",
@@ -35,10 +14,31 @@
     "text": "My projects about evil animals, with an emphasis on rabbits and rabbit-related animals\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nproject 1: electric boogaloo 1\n\n\n\n\n\n\n\n\n\n\n\n\nproject 2: electric boogaloo 2\n\n\n\n\n\n\n\n\n\n\n\n\nproject 3: electric boogaloo 3\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "education_experiences.html",
+    "href": "education_experiences.html",
+    "title": "Education & Experience",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Highlighted degrees and experiences from my educational journey:"
+  },
+  {
+    "objectID": "siteinfo.html",
+    "href": "siteinfo.html",
+    "title": "Site Information",
+    "section": "",
+    "text": "The current build is from 29 November 2025.\nThe website was created by me using Quarto pages. It is hosted with Netlify, and the source code can be found on the public GitHub repo here.\nThe site typeface is Atkinson Hyperlegible Next, an accessibility-focused design created by the Braile Institute (more information here).\nSignificant thanks to Jose Toledo Luna’s instructions, which provided much needed instruction."
+  },
+  {
+    "objectID": "projects/project_3.html",
+    "href": "projects/project_3.html",
+    "title": "project 3: electric boogaloo 3",
+    "section": "",
+    "text": "hello"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mason Kellerman",
+    "section": "",
+    "text": "I currently attend the University of California, Los Angeles, and will be graduating this spring with Psychology, B.A. and Statistics & Data Science, B.S. degrees, with a minor in Educational Studies.\nI am interested in on designing effective measures/assessments which enable effective and consistent causal conclusions about underlying features. I care about making a positive impact on individuals with my work through affecting institutional progress. More information about me can be found in my resume.\nI am focused on designing effective measures/assessments which enable effective and consistent causal conclusions about underlying features. I care about making a positive impact on individuals with my work through affecting institutional progress. More information about me can be found in my resume.\nI am interested in opportunities that further this vision; I appreciate all outreach :)"
   }
 ]

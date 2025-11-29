@@ -10,13 +10,13 @@ website:
     left:
       - href: index.qmd
         text: About
-      - href: education.qmd
-        text: Education
+      - href: education_experiences.qmd
+        text: Education & Experience
       - href: projects.qmd
         text: Projects
   page-footer: 
     left: "made by me"
-    right: "[additional site information](siteinfo.qmd)"
+    right: "[additional site information](/siteinfo.qmd)"
         
 
 format:

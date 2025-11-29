@@ -1,6 +1,8 @@
 ---
-title: "education"
+title: "Education & Experience"
 format: html
+toc: true
+toc-expand: 3
 ---
 
 # Education
@@ -13,5 +15,10 @@ format: html
 ## Relevant Courses
 
 
+# Experience
 
 
+
+
+
+ 
