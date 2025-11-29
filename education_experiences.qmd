@@ -5,20 +5,69 @@ toc: true
 toc-expand: 3
 ---
 
-# Education
 
-*Highlighted degrees and experiences from my educational journey:*
+
+<div style="height: 20px;"></div>
+# Education
 
 ## Degrees
 
+::: {.two-col}
+<div>**University of California, Los Angeles**</div>
+<div>*(3.993 GPA)*</div>
+:::
+::: {.two-col}
+<div><small>Expected March 2026</small></div>
+<div></div>
+:::
 
-## Relevant Courses
-
-
-# Experience
-
-
+  - *Psychology, B.A.*  
+  - *Statistics & Data Science, B.S.*  
+    - Educational Studies Minor
 
 
 
- 
+## Skills & Coursework
+
+  - `R` and RStudio
+    - `ggplot2`, `tidyverse`, `mlr3`
+  - Psychometric Measure Development/Assessment
+  - Multivariate Statistical Analysis
+  - Quasi-Experimental Methods
+  - Educationa Program Evaluation
+  - Predictive Regression Modeling Methods
+  - Familiarity with Bayesian Statistical Methods
+  - Familiarity with $\LaTeX$, Python, SQL
+
+
+
+
+
+<div style="height: 20px;"></div>
+# Selected Experiences
+
+::: {.two-col}
+<div>**mHTI Project Data Prep Team**</div>
+<div>Oct. 2024 – Mar. 2025</div>
+:::
+::: {.two-col}
+<div>*Fellowship (Short-Term)*</div>
+<div>*Los Angeles, CA*</div>
+:::
+
+- Worked with team to process and clean qualitative audio and video data to create speaker identity information for network-based analysis. Managed data preparation and organization. 
+
+
+<div style="height: 20px;"></div>
+::: {.two-col}
+<div>**Team Lead**</div>
+<div>May 2024 – Nov. 2025</div>
+:::
+::: {.two-col}
+<div>*Cathy's Cookies*</div>
+<div>*Orange, CA*</div>
+:::
+
+
+
+

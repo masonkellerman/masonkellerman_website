@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -123,9 +152,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a>
   <ul class="collapse">
   <li><a href="#degrees" id="toc-degrees" class="nav-link" data-scroll-target="#degrees">Degrees</a></li>
-  <li><a href="#relevant-courses" id="toc-relevant-courses" class="nav-link" data-scroll-target="#relevant-courses">Relevant Courses</a></li>
+  <li><a href="#skills-coursework" id="toc-skills-coursework" class="nav-link" data-scroll-target="#skills-coursework">Skills &amp; Coursework</a></li>
   </ul></li>
-  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
+  <li><a href="#selected-experiences" id="toc-selected-experiences" class="nav-link" data-scroll-target="#selected-experiences">Selected Experiences</a></li>
   </ul>
 </nav>
     </div>
@@ -151,18 +180,98 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div style="height: 20px;">
+
+</div>
 <section id="education" class="level1">
 <h1>Education</h1>
-<p><em>Highlighted degrees and experiences from my educational journey:</em></p>
 <section id="degrees" class="level2">
 <h2 class="anchored" data-anchor-id="degrees">Degrees</h2>
+<div class="two-col">
+<div>
+<strong>University of California, Los Angeles</strong>
+</div>
+<div>
+<em>(3.993 GPA)</em>
+</div>
+</div>
+<div class="two-col">
+<div>
+<small>Expected March 2026</small>
+</div>
+<div>
+
+</div>
+</div>
+<ul>
+<li><em>Psychology, B.A.</em><br>
+</li>
+<li><em>Statistics &amp; Data Science, B.S.</em>
+<ul>
+<li>Educational Studies Minor</li>
+</ul></li>
+</ul>
 </section>
-<section id="relevant-courses" class="level2">
-<h2 class="anchored" data-anchor-id="relevant-courses">Relevant Courses</h2>
+<section id="skills-coursework" class="level2">
+<h2 class="anchored" data-anchor-id="skills-coursework">Skills &amp; Coursework</h2>
+<ul>
+<li><code>R</code> and RStudio
+<ul>
+<li><code>ggplot2</code>, <code>tidyverse</code>, <code>mlr3</code></li>
+</ul></li>
+<li>Psychometric Measure Development/Assessment</li>
+<li>Multivariate Statistical Analysis</li>
+<li>Quasi-Experimental Methods</li>
+<li>Educationa Program Evaluation</li>
+<li>Predictive Regression Modeling Methods</li>
+<li>Familiarity with Bayesian Statistical Methods</li>
+<li>Familiarity with <span class="math inline">\(\LaTeX\)</span>, Python, SQL</li>
+</ul>
+<div style="height: 20px;">
+
+</div>
 </section>
 </section>
-<section id="experience" class="level1">
-<h1>Experience</h1>
+<section id="selected-experiences" class="level1">
+<h1>Selected Experiences</h1>
+<div class="two-col">
+<div>
+<strong>mHTI Project Data Prep Team</strong>
+</div>
+<div>
+Oct.&nbsp;2024 – Mar.&nbsp;2025
+</div>
+</div>
+<div class="two-col">
+<div>
+<em>Fellowship (Short-Term)</em>
+</div>
+<div>
+<em>Los Angeles, CA</em>
+</div>
+</div>
+<ul>
+<li>Worked with team to process and clean qualitative audio and video data to create speaker identity information for network-based analysis. Managed data preparation and organization.</li>
+</ul>
+<div style="height: 20px;">
+
+</div>
+<div class="two-col">
+<div>
+<strong>Team Lead</strong>
+</div>
+<div>
+May 2024 – Nov.&nbsp;2025
+</div>
+</div>
+<div class="two-col">
+<div>
+<em>Cathy’s Cookies</em>
+</div>
+<div>
+<em>Orange, CA</em>
+</div>
+</div>
 
 
 </section>

@@ -18,7 +18,7 @@
     "href": "education_experiences.html",
     "title": "Education & Experience",
     "section": "",
-    "text": "Highlighted degrees and experiences from my educational journey:"
+    "text": "University of California, Los Angeles\n\n\n(3.993 GPA)\n\n\n\nPsychology, B.A.\n\nStatistics & Data Science, B.S.\n\nEducational Studies Minor"
   },
   {
     "objectID": "siteinfo.html",
@@ -39,6 +39,27 @@
     "href": "index.html",
     "title": "Mason Kellerman",
     "section": "",
-    "text": "I currently attend the University of California, Los Angeles, and will be graduating this spring with Psychology, B.A. and Statistics & Data Science, B.S. degrees, with a minor in Educational Studies.\nI am interested in on designing effective measures/assessments which enable effective and consistent causal conclusions about underlying features. I care about making a positive impact on individuals with my work through affecting institutional progress. More information about me can be found in my resume.\nI am focused on designing effective measures/assessments which enable effective and consistent causal conclusions about underlying features. I care about making a positive impact on individuals with my work through affecting institutional progress. More information about me can be found in my resume.\nI am interested in opportunities that further this vision; I appreciate all outreach :)"
+    "text": "I currently attend the University of California, Los Angeles, and will be graduating this spring with Psychology, B.A. and Statistics & Data Science, B.S. degrees, with a minor in Educational Studies.\nI am interested in on designing effective measures/assessments which enable effective and consistent causal conclusions about underlying features. I care about making a positive impact on individuals with my work through affecting institutional progress. More information about me can be found in my resume.\nI am interested in opportunities that further this vision; I appreciate all outreach :)"
+  },
+  {
+    "objectID": "education_experiences.html#degrees",
+    "href": "education_experiences.html#degrees",
+    "title": "Education & Experience",
+    "section": "Degrees",
+    "text": "Degrees\n\n\nUniversity of California, Los Angeles\n\n\n(3.993 GPA)\n\n\n\n\nExpected March 2026\n\n\n\n\n\n\nPsychology, B.A.\n\nStatistics & Data Science, B.S.\n\nEducational Studies Minor"
+  },
+  {
+    "objectID": "education_experiences.html#relevant-courses",
+    "href": "education_experiences.html#relevant-courses",
+    "title": "Education & Experience",
+    "section": "Relevant Courses",
+    "text": "Relevant Courses"
+  },
+  {
+    "objectID": "education_experiences.html#skills-coursework",
+    "href": "education_experiences.html#skills-coursework",
+    "title": "Education & Experience",
+    "section": "Skills & Coursework",
+    "text": "Skills & Coursework\n\nR and RStudio\n\nggplot2, tidyverse, mlr3\n\nPsychometric Measure Development/Assessment\nMultivariate Statistical Analysis\nQuasi-Experimental Methods\nEducationa Program Evaluation\nPredictive Regression Modeling Methods\nFamiliarity with Bayesian Statistical Methods\nFamiliarity with \\(\\LaTeX\\), Python, SQL"
   }
 ]

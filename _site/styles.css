@@ -8,6 +8,11 @@ body {
   font-weight: 575;
 }
 
-
+/* do left/right justified text */
+.two-col {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
 
 

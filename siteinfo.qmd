@@ -11,6 +11,7 @@ include-after-body:
     }
     </style>
     <footer class="custom-footer">
+    fnm.
     </footer>
 ---
 
@@ -23,7 +24,6 @@ The website was created by me using [Quarto](https://quarto.org/docs/websites/) 
 The site typeface is [Atkinson Hyperlegible Next](https://fonts.google.com/specimen/Atkinson+Hyperlegible+Next), an accessibility-focused design created by the Braile Institute (more information [here](https://www.brailleinstitute.org/freefont/)). 
 
 Significant thanks to [Jose Toledo Luna](https://toledo-luna.com/)'s instructions, which provided much needed instruction.
-
 
 
 ```{r}
