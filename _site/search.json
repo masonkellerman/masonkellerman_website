@@ -11,7 +11,14 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Some selected projects I have completed or am in the process of completing. More information is included on each page.\n* In Progress\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSports Sabermetric Predictive Comparison Report*\n\n\n\n\n\n\n\n\n\n\n\n\nproject 2: electric boogaloo 2\n\n\n\n\n\n\n\n\n\n\n\n\nproject 3: electric boogaloo 3\n\n\n\n\n\nNo matching items"
+    "text": "Some selected projects I have completed or am in the process of completing. More information is included on each page.\n* In Progress\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSports Sabermetric Predictive Comparison Report*\n\n\n\n\n\n\n\n\n\n\n\n\nContext-Dependent ABS Challenge Tool*\n\n\n\n\n\n\n\n\n\n\n\n\nproject 3: electric boogaloo 3\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/project_2.html",
+    "href": "projects/project_2.html",
+    "title": "Context-Dependent ABS Challenge Tool*",
+    "section": "",
+    "text": "*IN PROGRESS\nAccess the Tool here\nDownload the Report here (.pdf)\n(get source file here) (.tex)\n\n\n\n\nIn the upcoming 2026 MLB season, we will see the introduction of an automatic ball/strike (ABS) system which will allow players to “challenge” the human umpires’ ball/strike calls by appealing to a computerized system. However, since this has never been used at the major league level, optimal (and demonstrated) strategy is yet to be solidified.\nThis project aims to create a statistical framework for assessing the optimal strategy around using ABS challenges, with reference to game situation (and optionally player and team tendencies as well).\nThis research is summarized into a pdf report, and used to develop an python-based interactive tool to visualize and experiment with different factors. This dashboard could allow teams and analysts to more easily understand ABS challenge behaviors.\ntools used: R, python, quarto\n\n\n\n\n\n\n\nGraphical results (to be updated later):"
   },
   {
     "objectID": "education_experiences.html",
@@ -53,7 +60,7 @@
     "href": "projects/project_1.html",
     "title": "Sports Sabermetric Predictive Comparison Report*",
     "section": "",
-    "text": "*IN PROGRESS\nDownload the Report here (.pdf)\n(get source file here) (.tex)\n\n\n\n\nThis project focused on comparing the predictive abilities of different classes of sabermetric statistics in sports. Using 2025 WNBA data, I developed classification models with the goal of predicting a win/loss outcomes.\nSport fans will be familiar with the divide between classic, “old-school” statistical categories and new, “sabermetric” metrics designed to be a more advanced indicator of performance. Often, one set of these statistics will be favored over others, by both casual fans and award voters alike.\nThis project seeks to determine whether advanced or basic team statistical categories in sports is more predictive of team success at the team level. The resulting report will show the modeling strategies, test outputs, and corresponding conclusions.\n\n\n\n\n\n\n\nGraphical results (to be updated later):"
+    "text": "*IN PROGRESS\nDownload the Report here (.pdf)\n(get source file here) (.tex)\n\n\n\n\nThis project focused on comparing the predictive abilities of different classes of sabermetric statistics in sports. Using 2025 WNBA data, I developed classification models with the goal of predicting a win/loss outcomes.\nSport fans will be familiar with the divide between classic, “old-school” statistical categories and new, “sabermetric” metrics designed to be a more advanced indicator of performance. Often, one set of these statistics will be favored over others, by both casual fans and award voters alike.\nThis project seeks to determine whether advanced or basic team statistical categories in sports is more predictive of team success at the team level. The resulting report will show the modeling strategies, test outputs, and corresponding conclusions.\ntools used: R, LaTeX\n\n\n\n\n\n\n\nGraphical results (to be updated later):"
   },
   {
     "objectID": "projects/project_3.html",

@@ -1,7 +1,7 @@
 ---
 title: "Sports Sabermetric Predictive Comparison Report*"
 image: "projimages/proj1/cover.png"
-image-alt: "an illustrated image of an evil horror-core rabbit"
+image-alt: "Stacked boxplots showing the spread for 5 different measures centered around WNBA 3 point shooting percentage"
 format: html
 toc: false
 ---
@@ -22,6 +22,8 @@ This project focused on comparing the predictive abilities of different classes 
 Sport fans will be familiar with the divide between classic, "old-school" statistical categories and new, "sabermetric" metrics designed to be a more advanced indicator of performance. Often, one set of these statistics will be favored over others, by both casual fans and award voters alike. 
 
 This project seeks to determine whether advanced or basic team statistical categories in sports is more predictive of team success at the team level. The resulting [report](/inprogress.qmd) will show the modeling strategies, test outputs, and corresponding conclusions.
+
+**tools used**: `R`, `LaTeX`
 
 <div style="height: 10px;"></div>
 <hr>
