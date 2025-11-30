@@ -60,7 +60,7 @@ toc-expand: 3
 <div style="height: 20px;"></div>
 ::: {.two-col}
 <div>**Team Lead**</div>
-<div>May 2024 – Nov. 2025</div>
+<div>May 2024 – Present</div>
 :::
 ::: {.two-col}
 <div>*Cathy's Cookies*</div>

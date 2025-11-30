@@ -1,21 +1,21 @@
 ---
 title: "Mason Kellerman"
-image: pfp.png
-image-alt: "An selfie of of Mason with his cat, Daisy (a tabby / American Shorthair)"
+image: "/pfps/pfp.png"
+image-alt: "A cut-out portrait of Mason, from the shoulders up. It looks very professional; he'd make an excellent researcher or employee."
 about:
   template: trestles
   image-width: 15em
   image-shape: rounded
   links: 
+    - text: email
+      url: "mailto:masonkellerman1@gmail.com"
+      icon: bi-envelope-fill
     - icon: github
       text: github
       href: "https://github.com/masonkellerman"
     - icon: linkedin
       text: linkedin
       url: "https://www.linkedin.com/in/masonkellerman1/"
-    - text: email
-      url: "mailto:masonkellerman1@gmail.com"
-      icon: bi-envelope-fill
     - icon: bi-file-earmark-arrow-down-fill
       text: resume
       url: "resume.pdf"
