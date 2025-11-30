@@ -1,8 +1,45 @@
 ---
-title: "project 3: electric boogaloo 3"
-image: "projimages/proj3/cover.jpg"
-image-alt: "an illustrated image of an evil rabbit with blade and the horror hockey mask thing"
+title: "Impact of Socioeconomic Context on Debt Delinquency*"
+image: "projimages/proj3/cover.png"
+image-alt: "Horizontal bar graph showing average debt delinquency by parental income percentile. Data from Opportunity Insights"
 format: html
 ---
 
-hell
+
+
+*\*IN PROGRESS*
+
+*Team Project*
+
+<big>**Download the Report [here](/inprogress.qmd)**</big> (`.pdf`)  
+<small>(get source file [here](/inprogress.qmd)) (`.tex`)</small>  
+<big>**View poster [here](/inprogress.qmd)**</big>  
+<small>(get source file [here](/inprogress.qmd)) (`.tex`)</small>  
+<big>**View presentation slides [here](/inprogress.qmd)**</big>  
+<small>(get source file [here](/inprogress.qmd)) (`.qmd`)</small>  
+
+
+<div style="height: 10px;"></div>
+<hr>
+
+Financial stability is deeply associated with quality of life in the U.S.; the role of contextual factors in economic prosperity is similarly well established. 
+
+Using data from [Opportunity Insights](https://opportunityinsights.org/data/), my team and I used non-parametric methods of analysis to assess how racial and intergenerational factors lead to differential economic prosperity, as measured by the debt delinquency rate. Since the data is split by U.S. county, we also investigate differences across state and county, incorporating limited environmental factors such as county-level racial diversity.
+
+We compiled a [report](/inprogress.qmd) that contains our findings in more detail, and designed a [poster](/inprogress.qmd) to effectively communicate these results to a mass audience. A set of [slides](/inprogress.qmd) was also created for an in-class presentation.
+
+
+**tools used**: `R`, `LaTeX`, `Quarto`
+
+<div style="height: 10px;"></div>
+<hr>
+<div style="height: 10px;"></div>
+
+Graphical results (to be updated later):
+![](projimages/proj3/test_graph.png){fig-alt="Horizontal bar graph showing average debt delinquency by parental income percentile. Data from Opportunity Insights"}
+
+
+
+
+
+

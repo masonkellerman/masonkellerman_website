@@ -11,7 +11,7 @@ format: html
 
 <big>**Access the Tool [here](/inprogress.qmd)**</big>    
 <big>**Download the Report [here](/inprogress.qmd)**</big> (`.pdf`)  
-<small>(get source file [here](/inprogress.qmd)) (`.tex`)</small> 
+<small>(get source file [here](/inprogress.qmd)) (`.qmd`)</small> 
 
 <div style="height: 10px;"></div>
 <hr>
@@ -24,7 +24,7 @@ This project aims to create a statistical framework for assessing the optimal st
 This research is summarized into a pdf [report](/inprogress.qmd), and used to develop an `python`-based interactive [tool](/inprogress.qmd) to visualize and experiment with different factors. This dashboard could allow teams and analysts to more easily understand ABS challenge behaviors. 
 
 
-**tools used**: `R`, `python`, `quarto`
+**tools used**: `R`, `python`, `Quarto`
 
 <div style="height: 10px;"></div>
 <hr>
