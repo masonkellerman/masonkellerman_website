@@ -19,7 +19,7 @@ include-after-body:
 
 The current build is from `r format(Sys.time(),'%d %B %Y')`.
 
-The website was created by me using [Quarto](https://quarto.org/docs/websites/) pages. It is hosted with [Netlify](https://app.netlify.com/), and the source code can be found on the public GitHub repo [here](https://github.com/masonkellerman/masonkellerman_website/). 
+The website was created by me using [Quarto](https://quarto.org/docs/websites/) and [RStudio](https://posit.co/downloads/). It is hosted with [Netlify](https://app.netlify.com/), and the source code can be found on the public GitHub repo [here](https://github.com/masonkellerman/masonkellerman_website/). 
 
 The site typeface is [Atkinson Hyperlegible Next](https://fonts.google.com/specimen/Atkinson+Hyperlegible+Next) (and [Atkinson Hyperlegible Mono](https://fonts.google.com/specimen/Atkinson+Hyperlegible+Mono)), an accessibility-focused design created by the Braile Institute (more information [here](https://www.brailleinstitute.org/freefont/)). 
 

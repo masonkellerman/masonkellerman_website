@@ -36,7 +36,7 @@ toc-expand: 3
   - Educationa Program Evaluation
   - Predictive Regression Modeling Methods
   - Familiarity with Bayesian Statistical Methods
-  - Familiarity with $\LaTeX$, Python, SQL
+  - Familiarity with $\LaTeX$, Quarto, Python, SQL
 
 
 

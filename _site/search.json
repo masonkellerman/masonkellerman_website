@@ -25,7 +25,7 @@
     "href": "education_experiences.html",
     "title": "Education & Experience",
     "section": "",
-    "text": "University of California, Los Angeles\n\n\n(3.993 GPA)\n\n\n\n\nExpected March 2026\n\n\n\n\n\n\nPsychology, B.A.\n\nStatistics & Data Science, B.S.\n\nEducational Studies Minor\n\n\n\n\n\n\nR and RStudio\n\nggplot2, tidyverse, mlr3\n\nPsychometric Measure Development/Assessment\nMultivariate Statistical Analysis\nQuasi-Experimental Methods\nEducationa Program Evaluation\nPredictive Regression Modeling Methods\nFamiliarity with Bayesian Statistical Methods\nFamiliarity with \\(\\LaTeX\\), Python, SQL"
+    "text": "University of California, Los Angeles\n\n\n(3.993 GPA)\n\n\n\n\nExpected March 2026\n\n\n\n\n\n\nPsychology, B.A.\n\nStatistics & Data Science, B.S.\n\nEducational Studies Minor\n\n\n\n\n\n\nR and RStudio\n\nggplot2, tidyverse, mlr3\n\nPsychometric Measure Development/Assessment\nMultivariate Statistical Analysis\nQuasi-Experimental Methods\nEducationa Program Evaluation\nPredictive Regression Modeling Methods\nFamiliarity with Bayesian Statistical Methods\nFamiliarity with \\(\\LaTeX\\), Quarto, Python, SQL"
   },
   {
     "objectID": "education_experiences.html#degrees",
@@ -39,14 +39,14 @@
     "href": "education_experiences.html#skills-coursework",
     "title": "Education & Experience",
     "section": "",
-    "text": "R and RStudio\n\nggplot2, tidyverse, mlr3\n\nPsychometric Measure Development/Assessment\nMultivariate Statistical Analysis\nQuasi-Experimental Methods\nEducationa Program Evaluation\nPredictive Regression Modeling Methods\nFamiliarity with Bayesian Statistical Methods\nFamiliarity with \\(\\LaTeX\\), Python, SQL"
+    "text": "R and RStudio\n\nggplot2, tidyverse, mlr3\n\nPsychometric Measure Development/Assessment\nMultivariate Statistical Analysis\nQuasi-Experimental Methods\nEducationa Program Evaluation\nPredictive Regression Modeling Methods\nFamiliarity with Bayesian Statistical Methods\nFamiliarity with \\(\\LaTeX\\), Quarto, Python, SQL"
   },
   {
     "objectID": "siteinfo.html",
     "href": "siteinfo.html",
     "title": "Site Information",
     "section": "",
-    "text": "The current build is from 29 November 2025.\nThe website was created by me using Quarto pages. It is hosted with Netlify, and the source code can be found on the public GitHub repo here.\nThe site typeface is Atkinson Hyperlegible Next (and Atkinson Hyperlegible Mono), an accessibility-focused design created by the Braile Institute (more information here).\nSignificant thanks to Jose Toledo Luna’s instructions, which provided much needed instruction."
+    "text": "The current build is from 29 November 2025.\nThe website was created by me using Quarto and RStudio. It is hosted with Netlify, and the source code can be found on the public GitHub repo here.\nThe site typeface is Atkinson Hyperlegible Next (and Atkinson Hyperlegible Mono), an accessibility-focused design created by the Braile Institute (more information here).\nSignificant thanks to Jose Toledo Luna’s instructions, which provided much needed instruction."
   },
   {
     "objectID": "inprogress.html",
