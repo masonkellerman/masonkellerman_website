@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "education.html",
+    "href": "education.html",
+    "title": "education",
+    "section": "",
+    "text": "Highlighted degrees and experiences from my educational journey:"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Mason Kellerman",
@@ -32,7 +39,7 @@
     "href": "siteinfo.html",
     "title": "Site Information",
     "section": "",
-    "text": "The current build is from 30 November 2025.\nThe website was created by me using Quarto and RStudio. It is hosted with Netlify, and the source code can be found on the public GitHub repo here.\nThe site typeface is Atkinson Hyperlegible Next (and Atkinson Hyperlegible Mono), an accessibility-focused design created by the Braile Institute (more information here).\nSignificant thanks to Jose Toledo Luna’s instructions, which provided much needed instruction."
+    "text": "The current build is from 02 December 2025.\nThe website was created by me using Quarto and RStudio. It is hosted with Netlify, and the source code can be found on the public GitHub repo here.\nThe site typeface is Atkinson Hyperlegible Next (and Atkinson Hyperlegible Mono), an accessibility-focused design created by the Braile Institute (more information here).\nSignificant thanks to Jose Toledo Luna’s instructions, which provided much needed guidance."
   },
   {
     "objectID": "education_experiences.html",
@@ -68,5 +75,12 @@
     "title": "Projects",
     "section": "",
     "text": "Some selected projects I have completed or am in the process of completing. More information is included on each page.\n* In Progress\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSports Sabermetric Predictive Comparison Report*\n\n\n\n\n\n\n\n\n\n\n\n\nContext-Dependent ABS Challenge Tool*\n\n\n\n\n\n\n\n\n\n\n\n\nImpact of Socioeconomic Context on Debt Delinquency*\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   }
 ]

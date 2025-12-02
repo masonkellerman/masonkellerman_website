@@ -1,0 +1,17 @@
+---
+title: "education"
+format: html
+---
+
+# Education
+
+*Highlighted degrees and experiences from my educational journey:*
+
+## Degrees
+
+
+## Relevant Courses
+
+
+
+
