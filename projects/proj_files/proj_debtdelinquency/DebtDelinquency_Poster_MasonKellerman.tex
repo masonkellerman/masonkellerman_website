@@ -1,0 +1,154 @@
+%%%% Better Poster latex template example v1.0 (2019/04/04)
+%%%% GNU General Public License v3.0
+%%%% Rafael Bailo
+%%%% https://github.com/rafaelbailo/betterposter-latex-template
+%%%% 
+%%%% Original design from Mike Morrison
+%%%% https://twitter.com/mikemorrison
+
+\documentclass[a0paper,fleqn]{betterposter}
+
+%%%% Uncomment the following commands to customise the format
+
+%% Setting the width of columns
+% Left column
+\setlength{\leftbarwidth}{0.29\paperwidth}
+% Right column
+\setlength{\rightbarwidth}{0.338\paperwidth}
+
+%% change line spacing
+
+
+%% Setting the column margins
+% Horizontal margin
+%\setlength{\columnmarginvertical}{0.05\paperheight}
+% Vertical margin
+%\setlength{\columnmarginhorizontal}{0.05\paperheight}
+% Horizontal margin for the main column
+%\setlength{\maincolumnmarginvertical}{0.15\paperheight}
+% Vertical margin for the main column
+%\setlength{\maincolumnmarginhorizontal}{0.15\paperheight}
+
+%% Changing font sizes
+% Text font
+%\renewcommand{\fontsizestandard}{\fontsize{28}{35} \selectfont}
+% Main column font
+%\renewcommand{\fontsizemain}{\fontsize{28}{35} \selectfont}
+% Title font
+%\renewcommand{\fontsizetitle}{\fontsize{28}{35} \selectfont}
+% Author font
+%\renewcommand{\fontsizeauthor}{\fontsize{28}{35} \selectfont}
+% Section font
+%\renewcommand{\fontsizesection}{\fontsize{28}{35} \selectfont}
+
+%% Changing font sizes for a specific text segment
+% Place the text inside brackets:
+% {\fontsize{28}{35} \selectfont Your text goes here}
+
+%% Changing colors
+\usepackage{xcolor}
+\definecolor{offwhite}{HTML}{EEEEE3}
+% Background of side columns
+\renewcommand{\columnbackgroundcolor}{offwhite}
+% Font of side columns
+%\renewcommand{\columnfontcolor}{gray}
+% Background of main column
+\renewcommand{\maincolumnbackgroundcolor}{empirical}
+%\renewcommand{\maincolumnbackgroundcolor}{theory}
+%\renewcommand{\maincolumnbackgroundcolor}{methods}
+%\renewcommand{\maincolumnbackgroundcolor}{intervention}
+% Font of main column
+%\renewcommand{\maincolumnfontcolor}{gray}
+\DeclareFontFamily{U}{skulls}{}
+\DeclareFontShape{U}{skulls}{m}{n}{ <-> skull }{}
+\newcommand{\skull}{\text{\usefont{U}{skulls}{m}{n}\symbol{'101}}}
+
+\begin{document}	
+\betterposter{
+%%%%%%%% MAIN COLUMN 
+
+\maincolumn{
+% \/ i pushed the text to the middle, if it looks bad feel free to remove 
+\vspace{5cm}
+%%%% Main space
+Childhood \newline
+socioeconomic \newline conditions (parental income, race, \newline education) \newline significantly shape financial outcomes in adulthood
+}{
+%%%% Bottom space
+
+%% QR code
+\qrcode{Images/qr_ucla.png}{}{← \textbf{Download the full report} by scanning the QR code!}
+% Smartphone icon
+% Author: Freepik
+% Retrieved from: https://www.flaticon.com/free-icon/smartphone_65680
+
+%% Compact QR code (comment the previous command and un-comment this one to switch)
+%\compactqrcode{images/qr-code.png}{
+%\textbf{Take a picture} to
+%\\download the full paper
+%}
+
+}
+
+}{
+%%%%%%%% LEFT COLUMN
+
+\title{An Investigation of Debt Delinquency Across the United States}
+\author{Mason Kellerman}
+\author{Sophia Yi}
+\author{Diandian Shi}
+\author{Aly Tan}
+\author{Calvin Windmiller Kolster}
+\vspace{0.5cm}
+\institution{UCLA Statistics}
+
+\section{Introduction}
+\vspace{-1.5cm}
+\begin{itemize}
+\item \textbf{Debt delinquency}, or overdue payments on loans, is an indicator of an individual's overall financial health. 
+\item High debt delinquency can also impact financial health through credit score reduction and other financial penalties. 
+\item Different populations have different levels and patterns of debt delinquency, along income, gender, race, and location.
+\end{itemize}
+
+\vspace{0.5cm}
+\section{Summary Statistics}
+\vspace{-1.5cm}
+\begin{center}
+\includegraphics[width=\textwidth]{Images/EDAplots_1.png}
+\end{center}
+\vspace{0.5cm}
+\begin{center}
+\includegraphics[width=\textwidth]{Images/EDAplots_2.png}
+\end{center}
+
+
+}
+{
+%%%%%%%% RIGHT COLUMN
+\section{Research Questions and Methods}
+\vspace{-1.5cm}
+
+1. \textit{Do children from different family income percentiles have different delinquency rates in adulthood?} \newline
+    To test whether children from families with different parental income percentiles (either $25^\text{th}$, $50^\text{th}$, or $75^\text{th}$ percentile) differ in terms of adulthood debt delinquency rates, we fit a non-parametric \textbf{Kruskal–Wallis} model and conducted \textbf{post-hoc Dunn tests}, finding that \textbf{all levels were significantly different} from one another, with a consistent negative relationship between parental income and debt delinquency rate.  \newline
+
+\vspace{-1cm}
+2. \textit{How do childhood socioeconomic environments predict adult debt delinquency?} \newline
+    To incorporate childhood socioeconomic environment beyond parental income and race, we used the parental income percentile measure in combination with race and county education rate during childhood (at least four years of college). We fit two models: a \textbf{multivariate linear model}, and a \textbf{random forest}. We found that all three of parental income, race, and local education levels in childhood had a significant relationship with debt delinquency rates in adulthood, with race and parental income being the most important of the three. \newline
+
+\vspace{-0.5cm}
+\begin{center}
+ \includegraphics[width=25cm,]{Images/rq2_rfimportanceplot.png}
+ \end{center}
+\vspace{-1cm}
+\section{Conclusions}
+We found that childhood socioeconomic conditions shape financial outcomes in adulthood. Delinquency rates differ significantly across parental income groups, with children from lower-income families exhibiting higher delinquency in adulthood. Furthermore, predictive modeling shows that race and parental income are strong determinants of adult financial distress, while education provides additional predictive power. Together, these results highlight the impact of early-life structural disadvantage on adult financial difficulties. 
+
+%% This fills the space between the content and the logo
+\vfill{}
+%% Institution logo
+\begin{flushright}
+    \includegraphics[height=3cm]{Images/uclastatsdept.png}
+\end{flushright}
+}
+
+\end{document}

@@ -18,7 +18,7 @@ about:
       url: "https://www.linkedin.com/in/masonkellerman1/"
     - icon: bi-file-earmark-arrow-down-fill
       text: resume
-      url: "resume.pdf"
+      url: "resume_MasonKellerman.pdf"
 comments: false
 toc: false
 format:
@@ -30,7 +30,7 @@ format:
 
 I currently attend the **University of California, Los Angeles**, and will be graduating this spring with *Psychology, B.A.* and *Statistics & Data Science, B.S.* degrees, with a minor in Educational Studies. 
 
-My focus is on designing effective measures/assessments for teacher and student evaluation, which enable quasi-causal conclusions about underlying features and facilitate constructive educator training and school policy. I care about making a positive impact on individuals with my work through affecting institutional progress. More information about me can be found in my [resume](/resume.pdf).
+My focus is on designing effective measures/assessments for teacher and student evaluation, which enable quasi-causal conclusions about underlying features and facilitate constructive educator training and school policy. I care about making a positive impact on individuals with my work through affecting institutional progress. More information about me can be found in my [resume](/resume_MasonKellerman.pdf).
 
 I am interested in opportunities that further this vision; I appreciate all outreach :)
 

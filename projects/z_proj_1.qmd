@@ -1,6 +1,6 @@
 ---
 title: "Sports Sabermetric Predictive Comparison Report*"
-image: "projimages/proj1/cover.png"
+image: "proj_files/proj1/cover.png"
 image-alt: "Stacked boxplots showing the spread for 5 different measures centered around WNBA 3 point shooting percentage"
 format: html
 toc: false
@@ -30,7 +30,7 @@ This project seeks to determine whether advanced or basic team statistical categ
 <div style="height: 10px;"></div>
 
 Graphical results (to be updated later):
-![](projimages/proj1/test_graph.png){fig-alt="Stacked boxplots showing the spread for 5 different measures centered around WNBA 3 point shooting percentage"}
+![](proj_files/proj1/test_graph.png){fig-alt="Stacked boxplots showing the spread for 5 different measures centered around WNBA 3 point shooting percentage"}
 
 
 

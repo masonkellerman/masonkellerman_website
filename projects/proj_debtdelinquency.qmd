@@ -1,26 +1,24 @@
 ---
-title: "Impact of Socioeconomic Context on Debt Delinquency*"
-image: "projimages/proj3/cover.png"
+title: "Impact of Socioeconomic Context on Debt Delinquency"
+image: "proj_files/proj_debtdelinquency/cover.png"
 image-alt: "Horizontal bar graph showing average debt delinquency by parental income percentile. Data from Opportunity Insights"
 format: html
 ---
 
 
 
-*\*IN PROGRESS*
+*Data Analysis Project: Report; Poster, and Presentation*
 
-*Team Project*
-
-<big>**Download the Report [here](/inprogress.qmd)**</big> (`.pdf`)  
-<small>(get source file [here](/inprogress.qmd)) (`.tex`)</small>  
-<big>**View poster [here](/inprogress.qmd)**</big>  
-<small>(get source file [here](/inprogress.qmd)) (`.tex`)</small>  
-<big>**View presentation slides [here](/inprogress.qmd)**</big>  
-<small>(get source file [here](/inprogress.qmd)) (`.qmd`)</small>  
+<big>**Download the Report [here](proj_files/proj_debtdelinquency/DebtDelinquency_Report_MasonKellerman.pdf)**</big> (`.pdf`)  
+<small>(get source file [here](proj_files/proj_debtdelinquency/DebtDelinquency_Report_MasonKellerman.tex)) (`.tex`)</small>  
+<big>**View poster [here](proj_files/proj_debtdelinquency/DebtDelinquency_Poster_MasonKellerman.pdf)**</big>  
+<small>(get source file [here](proj_files/proj_debtdelinquency/DebtDelinquency_Poster_MasonKellerman.tex)) (`.tex`)</small>  
+<big>**View presentation slides [here](proj_files/proj_debtdelinquency/DebtDelinquency_Slides_MasonKellerman.pdf)**</big>  
 
 
 <div style="height: 10px;"></div>
 <hr>
+
 
 Financial stability is deeply associated with quality of life in the U.S.; the role of contextual factors in economic prosperity is similarly well established. 
 
@@ -36,9 +34,7 @@ We compiled a [report](/inprogress.qmd) that contains our findings in more detai
 <div style="height: 10px;"></div>
 
 Graphical results (to be updated later):
-![](projimages/proj3/test_graph.png){fig-alt="Horizontal bar graph showing average debt delinquency by parental income percentile. Data from Opportunity Insights"}
-
-
+![](proj_files/proj_debtdelinquency/test_graph.png){fig-alt="Horizontal bar graph showing average debt delinquency by parental income percentile. Data from Opportunity Insights"}
 
 
 

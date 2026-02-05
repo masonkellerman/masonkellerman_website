@@ -1,6 +1,6 @@
 ---
 title: "Context-Dependent ABS Challenge Tool*"
-image: "projimages/proj2/cover.png"
+image: "proj_files/proj2/cover.png"
 image-alt: "MLB run expectancy matrix for 2021–24 seasons. Data from FanGraphs"
 format: html
 ---
@@ -31,7 +31,7 @@ This research is summarized into a pdf [report](/inprogress.qmd), and used to de
 <div style="height: 10px;"></div>
 
 Graphical results (to be updated later):
-![](projimages/proj2/test_graph.png){fig-alt="MLB run expectancy matrix for 2021–24 seasons. Data from FanGraphs"}
+![](proj_files/proj2/test_graph.png){fig-alt="MLB run expectancy matrix for 2021–24 seasons. Data from FanGraphs"}
 
 
 

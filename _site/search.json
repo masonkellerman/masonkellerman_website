@@ -14,18 +14,18 @@
     "text": "I currently attend the University of California, Los Angeles, and will be graduating this spring with Psychology, B.A. and Statistics & Data Science, B.S. degrees, with a minor in Educational Studies.\nMy focus is on designing effective measures/assessments for teacher and student evaluation, which enable quasi-causal conclusions about underlying features and facilitate constructive educator training and school policy. I care about making a positive impact on individuals with my work through affecting institutional progress. More information about me can be found in my resume.\nI am interested in opportunities that further this vision; I appreciate all outreach :)"
   },
   {
-    "objectID": "projects/project_3.html",
-    "href": "projects/project_3.html",
-    "title": "Impact of Socioeconomic Context on Debt Delinquency*",
-    "section": "",
-    "text": "*IN PROGRESS\nTeam Project\nDownload the Report here (.pdf)\n(get source file here) (.tex)\nView poster here\n(get source file here) (.tex)\nView presentation slides here\n(get source file here) (.qmd)\n\n\n\n\nFinancial stability is deeply associated with quality of life in the U.S.; the role of contextual factors in economic prosperity is similarly well established.\nUsing data from Opportunity Insights, my team and I used non-parametric methods of analysis to assess how racial and intergenerational factors lead to differential economic prosperity, as measured by the debt delinquency rate. Since the data is split by U.S. county, we also investigate differences across state and county, incorporating limited environmental factors such as county-level racial diversity.\nWe compiled a report that contains our findings in more detail, and designed a poster to effectively communicate these results to a mass audience. A set of slides was also created for an in-class presentation.\ntools used: R, LaTeX, Quarto\n\n\n\n\n\n\n\nGraphical results (to be updated later):"
-  },
-  {
-    "objectID": "projects/project_1.html",
-    "href": "projects/project_1.html",
+    "objectID": "projects/z_proj_1.html",
+    "href": "projects/z_proj_1.html",
     "title": "Sports Sabermetric Predictive Comparison Report*",
     "section": "",
     "text": "*IN PROGRESS\nDownload the Report here (.pdf)\n(get source file here) (.tex)\n\n\n\n\nThis project focused on comparing the predictive abilities of different classes of sabermetric statistics in sports. Using 2025 WNBA data, I developed classification models with the goal of predicting a win/loss outcomes.\nSport fans will be familiar with the divide between classic, “old-school” statistical categories and new, “sabermetric” metrics designed to be a more advanced indicator of performance. Often, one set of these statistics will be favored over others, by both casual fans and award voters alike.\nThis project seeks to determine whether advanced or basic team statistical categories in sports is more predictive of team success at the team level. The resulting report will show the modeling strategies, test outputs, and corresponding conclusions.\ntools used: R, LaTeX\n\n\n\n\n\n\n\nGraphical results (to be updated later):"
+  },
+  {
+    "objectID": "projects/proj_debtdelinquency.html",
+    "href": "projects/proj_debtdelinquency.html",
+    "title": "Impact of Socioeconomic Context on Debt Delinquency",
+    "section": "",
+    "text": "Data Analysis Project: Report; Poster, and Presentation\nDownload the Report here (.pdf)\n(get source file here) (.tex)\nView poster here\n(get source file here) (.tex)\nView presentation slides here\n\n\n\n\nFinancial stability is deeply associated with quality of life in the U.S.; the role of contextual factors in economic prosperity is similarly well established.\nUsing data from Opportunity Insights, my team and I used non-parametric methods of analysis to assess how racial and intergenerational factors lead to differential economic prosperity, as measured by the debt delinquency rate. Since the data is split by U.S. county, we also investigate differences across state and county, incorporating limited environmental factors such as county-level racial diversity.\nWe compiled a report that contains our findings in more detail, and designed a poster to effectively communicate these results to a mass audience. A set of slides was also created for an in-class presentation.\ntools used: R, LaTeX, Quarto\n\n\n\n\n\n\n\nGraphical results (to be updated later):"
   },
   {
     "objectID": "inprogress.html",
@@ -39,7 +39,7 @@
     "href": "siteinfo.html",
     "title": "Site Information",
     "section": "",
-    "text": "The current build is from 02 December 2025.\nThe website was created by me using Quarto and RStudio. It is hosted with Netlify, and the source code can be found on the public GitHub repo here.\nThe site typeface is Atkinson Hyperlegible Next (and Atkinson Hyperlegible Mono), an accessibility-focused design created by the Braile Institute (more information here).\nSignificant thanks to Jose Toledo Luna’s instructions, which provided much needed guidance."
+    "text": "The current build is from 04 February 2026.\nThe website was created by me using Quarto and RStudio. It is hosted with Netlify, and the source code can be found on the public GitHub repo here.\nThe site typeface is Atkinson Hyperlegible Next (and Atkinson Hyperlegible Mono), an accessibility-focused design created by the Braile Institute (more information here).\nSignificant thanks to Jose Toledo Luna’s instructions, which provided much needed guidance."
   },
   {
     "objectID": "education_experiences.html",
@@ -63,8 +63,8 @@
     "text": "R and RStudio\n\nggplot2, tidyverse, mlr3\n\nPsychometric Measure Development/Assessment\nMultivariate Statistical Analysis\nQuasi-Experimental Methods\nEducationa Program Evaluation\nPredictive Regression Modeling Methods\nFamiliarity with Bayesian Statistical Methods\nFamiliarity with \\(\\LaTeX\\), Quarto, Python, SQL"
   },
   {
-    "objectID": "projects/project_2.html",
-    "href": "projects/project_2.html",
+    "objectID": "projects/z_proj_2.html",
+    "href": "projects/z_proj_2.html",
     "title": "Context-Dependent ABS Challenge Tool*",
     "section": "",
     "text": "*IN PROGRESS\nAccess the Tool here\nDownload the Report here (.pdf)\n(get source file here) (.qmd)\n\n\n\n\nIn the upcoming 2026 MLB season, we will see the introduction of an automatic ball/strike (ABS) system which will allow players to “challenge” the human umpires’ ball/strike calls by appealing to a computerized system. However, since this has never been used at the major league level, optimal (and demonstrated) strategy is yet to be solidified.\nThis project aims to create a statistical framework for assessing the optimal strategy around using ABS challenges, with reference to game situation (and optionally player and team tendencies as well).\nThis research is summarized into a pdf report, and used to develop an python-based interactive tool to visualize and experiment with different factors. This dashboard could allow teams and analysts to more easily understand ABS challenge behaviors.\ntools used: R, python, Quarto\n\n\n\n\n\n\n\nGraphical results (to be updated later):"
@@ -74,7 +74,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Some selected projects I have completed or am in the process of completing. More information is included on each page.\n* In Progress\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSports Sabermetric Predictive Comparison Report*\n\n\n\n\n\n\n\n\n\n\n\n\nContext-Dependent ABS Challenge Tool*\n\n\n\n\n\n\n\n\n\n\n\n\nImpact of Socioeconomic Context on Debt Delinquency*\n\n\n\n\n\nNo matching items"
+    "text": "Some selected projects I have completed (or am in the process of completing). More information is included on each page, and please reach out with any questions/comments!\n\n\n\n* In Progress\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nImpact of Socioeconomic Context on Debt Delinquency\n\n\n\n\n\n\n\n\n\n\n\n\nSports Sabermetric Predictive Comparison Report*\n\n\n\n\n\n\n\n\n\n\n\n\nContext-Dependent ABS Challenge Tool*\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
