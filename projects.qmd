@@ -17,14 +17,11 @@ listing:
 
 
 
-Some selected projects I have completed (or am in the process of completing). More information is included on each page, and please reach out with any questions/comments!
+Some selected projects I have completed (or are in progress). More information is included on each page, and please reach out with any questions/comments!
 
 
 :::project-listing
 :::
-
-
-<small>* In Progress</small>
 
 
 
