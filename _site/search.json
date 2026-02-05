@@ -1,45 +1,24 @@
 [
   {
-    "objectID": "education.html",
-    "href": "education.html",
-    "title": "education",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Highlighted degrees and experiences from my educational journey:"
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Mason Kellerman",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "I currently attend the University of California, Los Angeles, and will be graduating this spring with Psychology, B.A. and Statistics & Data Science, B.S. degrees, with a minor in Educational Studies.\nMy focus is on designing effective measures/assessments for teacher and student evaluation, which enable quasi-causal conclusions about underlying features and facilitate constructive educator training and school policy. I care about making a positive impact on individuals with my work through affecting institutional progress. More information about me can be found in my resume.\nI am interested in opportunities that further this vision; I appreciate all outreach :)"
+    "text": "Some selected projects I have completed (or are in progress). More information is included on each page, and please reach out with any questions/comments!\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nImpact of Socioeconomic Context on Debt Delinquency\n\n\n\n\n\n\n\n\n\n\n\n\nSports Sabermetric Predictive Comparison Report*\n\n\n\n\n\n\n\n\n\n\n\n\nContext-Dependent ABS Challenge Tool*\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/z_proj_1.html",
-    "href": "projects/z_proj_1.html",
-    "title": "Sports Sabermetric Predictive Comparison Report*",
+    "objectID": "projects/z_proj_2.html",
+    "href": "projects/z_proj_2.html",
+    "title": "Context-Dependent ABS Challenge Tool*",
     "section": "",
-    "text": "*IN PROGRESS\nDownload the Report here (.pdf)\n(get source file here) (.tex)\n\n\n\n\nThis project focused on comparing the predictive abilities of different classes of sabermetric statistics in sports. Using 2025 WNBA data, I developed classification models with the goal of predicting a win/loss outcomes.\nSport fans will be familiar with the divide between classic, “old-school” statistical categories and new, “sabermetric” metrics designed to be a more advanced indicator of performance. Often, one set of these statistics will be favored over others, by both casual fans and award voters alike.\nThis project seeks to determine whether advanced or basic team statistical categories in sports is more predictive of team success at the team level. The resulting report will show the modeling strategies, test outputs, and corresponding conclusions.\ntools used: R, LaTeX\n\n\n\n\n\n\n\nGraphical results (to be updated later):"
-  },
-  {
-    "objectID": "projects/proj_debtdelinquency.html",
-    "href": "projects/proj_debtdelinquency.html",
-    "title": "Impact of Socioeconomic Context on Debt Delinquency",
-    "section": "",
-    "text": "Data Analysis Project: Report; Poster, and Presentation\nTools used: R (RStudio), LaTeX (Overleaf)\n\nResource Downloads\nDownload the Report (.pdf)\nDownload poster, and presentation slides (.pdf)\nDownload the Data Set (.csv, 6.1mb)\n\n\n\n\n\n\nProject Overview\nFinancial stability has been strongly associated with quality of life across a number of metrics, and can serve as an important and more quantifiable indicator of well-being for policy makers. By determining the extent to which a person’s childhood socioeconomic environment predicts their financial success in adulthood, we lay the groundwork to direct future social welfare interventions to target the most under-served demographic groups.\nUsing publicly available credit availability data from the Opportunity Insights organization, we combined the results from non-parametric Kruskall-Wallis tests, multiple regression, and Random Forest models to assess how racial and intergenerational factors lead to differential economic prosperity in adulthood, as measured by debt delinquency rate. We combined this data with local education rates to construct a fuller picture of socioeconomic context, which was included as predictor.\nWe found that parental income is a significant predictor of debt delinquency rates in adulthood across the \\(25^{\\text{th}}\\), \\(50^{\\text{th}}\\), and \\(75^{\\text{th}}\\) percentile groups. Children from wealthier families are more likely to have better financial health.\nThese findings were repeated when considering the broader childhood social environment; in addition, we found that there were highly significant differences by race/ethnicity, and significant but limited effects from local college education rates.\nAs such, we recommend that financial well-being measures be targeted towards less wealthy families from typically disadvantaged race/ethnicities, as these features most strongly predict poorer financial health in adulthood. More research is suggested to determine the most efficacious interventions. The full results are compiled into a formal report which contains a more detailed literature review, methodology, and discussion of findings We also designed a conference poster and slides which were used to give a presentation of this material, targeting broad understanding.\n\n\n\n\n\n\n\n\n\nData Set\nThe data set is a combination of publicly available data, joined from several sources. The primary financial data is a combination of seven “Credit Access in the United States” by county .csv files from Opportunity Insights, joined on cohort information. This was combined with FIPS identity codes for county and state abbreviations, available from the U.S. Census Bureau. I also joined this data with four year college education rates from the U.S. Census Bureau’s Decennial Census, hosted by the USDA Economic Research Service.\nThe final data set contains information by cohort of income percentile group, race/ethnicity, and county for children born between 1978 and 1985. The debt delinquency variable tracks the fraction of individuals with a 90+ day delinquency between 2016–2020.\nA short code book is provided below, and the data set can be downloaded here (.csv, 6.1mb).\n\n\n\n\n\n\n\n\n(download the .tex source file for the report here, and for the poster here)"
-  },
-  {
-    "objectID": "inprogress.html",
-    "href": "inprogress.html",
-    "title": "",
-    "section": "",
-    "text": "Well…😔\nUnfortunately the page you wanted is unavailable. One of the following is likely true\n\nThe site is broken somehow\n\ni.e., I messed something up :(\n\nThe item is in progress. I’ll update it when completed.\n\nReach out to me for more details :)\n\n\nThanks, and my apologies"
-  },
-  {
-    "objectID": "siteinfo.html",
-    "href": "siteinfo.html",
-    "title": "Site Information",
-    "section": "",
-    "text": "The current build is from 05 February 2026.\nThe website was created by me using Quarto and RStudio. It is hosted with Netlify, and the source code can be found on the public GitHub repo here.\nThe site typeface is Atkinson Hyperlegible Next (and Atkinson Hyperlegible Mono), an accessibility-focused design created by the Braile Institute (more information here).\nSignificant thanks to Jose Toledo Luna’s instructions, which provided much needed guidance."
+    "text": "*IN PROGRESS\nAccess the Tool here\nDownload the Report here (.pdf)\n(get source file here) (.qmd)\n\n\n\n\nIn the upcoming 2026 MLB season, we will see the introduction of an automatic ball/strike (ABS) system which will allow players to “challenge” the human umpires’ ball/strike calls by appealing to a computerized system. However, since this has never been used at the major league level, optimal (and demonstrated) strategy is yet to be solidified.\nThis project aims to create a statistical framework for assessing the optimal strategy around using ABS challenges, with reference to game situation (and optionally player and team tendencies as well).\nThis research is summarized into a pdf report, and used to develop an python-based interactive tool to visualize and experiment with different factors. This dashboard could allow teams and analysts to more easily understand ABS challenge behaviors.\ntools used: R, python, Quarto\n\n\n\n\n\n\n\nGraphical results (to be updated later):"
   },
   {
     "objectID": "education_experiences.html",
@@ -63,24 +42,38 @@
     "text": "R and RStudio\n\nggplot2, tidyverse, mlr3\n\nPsychometric Measure Development/Assessment\nMultivariate Statistical Analysis\nQuasi-Experimental Methods\nEducationa Program Evaluation\nPredictive Regression Modeling Methods\nFamiliarity with Bayesian Statistical Methods\nFamiliarity with \\(\\LaTeX\\), Quarto, Python, SQL"
   },
   {
-    "objectID": "projects/z_proj_2.html",
-    "href": "projects/z_proj_2.html",
-    "title": "Context-Dependent ABS Challenge Tool*",
+    "objectID": "siteinfo.html",
+    "href": "siteinfo.html",
+    "title": "Site Information",
     "section": "",
-    "text": "*IN PROGRESS\nAccess the Tool here\nDownload the Report here (.pdf)\n(get source file here) (.qmd)\n\n\n\n\nIn the upcoming 2026 MLB season, we will see the introduction of an automatic ball/strike (ABS) system which will allow players to “challenge” the human umpires’ ball/strike calls by appealing to a computerized system. However, since this has never been used at the major league level, optimal (and demonstrated) strategy is yet to be solidified.\nThis project aims to create a statistical framework for assessing the optimal strategy around using ABS challenges, with reference to game situation (and optionally player and team tendencies as well).\nThis research is summarized into a pdf report, and used to develop an python-based interactive tool to visualize and experiment with different factors. This dashboard could allow teams and analysts to more easily understand ABS challenge behaviors.\ntools used: R, python, Quarto\n\n\n\n\n\n\n\nGraphical results (to be updated later):"
+    "text": "The current build is from 05 February 2026.\nThe website was created by me using Quarto and RStudio. It is hosted with Netlify, and the source code can be found on the public GitHub repo here.\nThe site typeface is Atkinson Hyperlegible Next (and Atkinson Hyperlegible Mono), an accessibility-focused design created by the Braile Institute (more information here).\nSignificant thanks to Jose Toledo Luna’s instructions, which provided much needed guidance."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "inprogress.html",
+    "href": "inprogress.html",
+    "title": "",
     "section": "",
-    "text": "Some selected projects I have completed (or are in progress). More information is included on each page, and please reach out with any questions/comments!\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nImpact of Socioeconomic Context on Debt Delinquency\n\n\n\n\n\n\n\n\n\n\n\n\nSports Sabermetric Predictive Comparison Report*\n\n\n\n\n\n\n\n\n\n\n\n\nContext-Dependent ABS Challenge Tool*\n\n\n\n\n\nNo matching items"
+    "text": "Well…😔\nUnfortunately the page you wanted is unavailable. One of the following is likely true\n\nThe site is broken somehow\n\ni.e., I messed something up :(\n\nThe item is in progress. I’ll update it when completed.\n\nReach out to me for more details :)\n\n\nThanks, and my apologies"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "projects/proj_debtdelinquency.html",
+    "href": "projects/proj_debtdelinquency.html",
+    "title": "Impact of Socioeconomic Context on Debt Delinquency",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Data Analysis Project: Report; Poster, and Presentation\nTools used: R (RStudio), LaTeX (Overleaf)\n\nResource Downloads\nDownload the Report (.pdf)\nDownload poster, and presentation slides (.pdf)\nDownload the Data Set (.csv, 6.1mb)\n\n\n\n\n\n\nProject Overview\nFinancial stability has been strongly associated with quality of life across a number of metrics, and can serve as an important and more quantifiable indicator of well-being for policy makers. By determining the extent to which a person’s childhood socioeconomic environment predicts their financial success in adulthood, we lay the groundwork to direct future social welfare interventions to target the most under-served demographic groups.\nUsing publicly available credit availability data from the Opportunity Insights organization, we combined the results from non-parametric Kruskall-Wallis tests, multiple regression, and Random Forest models to assess how racial and intergenerational factors lead to differential economic prosperity in adulthood, as measured by debt delinquency rate. We combined this data with local education rates to construct a fuller picture of socioeconomic context, which was included as predictor.\nWe found that parental income is a significant predictor of debt delinquency rates in adulthood across the \\(25^{\\text{th}}\\), \\(50^{\\text{th}}\\), and \\(75^{\\text{th}}\\) percentile groups. Children from wealthier families are more likely to have better financial health.\nThese findings were repeated when considering the broader childhood social environment; in addition, we found that there were highly significant differences by race/ethnicity, and significant but limited effects from local college education rates.\nAs such, we recommend that financial well-being measures be targeted towards less wealthy families from typically disadvantaged race/ethnicities, as these features most strongly predict poorer financial health in adulthood. More research is suggested to determine the most efficacious interventions. The full results are compiled into a formal report which contains a more detailed literature review, methodology, and discussion of findings We also designed a conference poster and slides which were used to give a presentation of this material, targeting broad understanding.\n\n\n\n\n\n\n\n\n\nData Set\nThe data set is a combination of publicly available data, joined from several sources. The primary financial data is a combination of seven “Credit Access in the United States” by county .csv files from Opportunity Insights, joined on cohort information. This was combined with FIPS identity codes for county and state abbreviations, available from the U.S. Census Bureau. I also joined this data with four year college education rates from the U.S. Census Bureau’s Decennial Census, hosted by the USDA Economic Research Service.\nThe final data set contains information by cohort of income percentile group, race/ethnicity, and county for children born between 1978 and 1985. The debt delinquency variable tracks the fraction of individuals with a 90+ day delinquency between 2016–2020.\nA short code book is provided below, and the data set can be downloaded here (.csv, 6.1mb).\n\n\n\n\n\n\n\n\n(download the .tex source file for the report here, and for the poster here)"
+  },
+  {
+    "objectID": "projects/z_proj_1.html",
+    "href": "projects/z_proj_1.html",
+    "title": "Sports Sabermetric Predictive Comparison Report*",
+    "section": "",
+    "text": "*IN PROGRESS\nDownload the Report here (.pdf)\n(get source file here) (.tex)\n\n\n\n\nThis project focused on comparing the predictive abilities of different classes of sabermetric statistics in sports. Using 2025 WNBA data, I developed classification models with the goal of predicting a win/loss outcomes.\nSport fans will be familiar with the divide between classic, “old-school” statistical categories and new, “sabermetric” metrics designed to be a more advanced indicator of performance. Often, one set of these statistics will be favored over others, by both casual fans and award voters alike.\nThis project seeks to determine whether advanced or basic team statistical categories in sports is more predictive of team success at the team level. The resulting report will show the modeling strategies, test outputs, and corresponding conclusions.\ntools used: R, LaTeX\n\n\n\n\n\n\n\nGraphical results (to be updated later):"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mason Kellerman",
+    "section": "",
+    "text": "I currently attend the University of California, Los Angeles, and will be graduating this spring with Psychology, B.A. and Statistics & Data Science, B.S. degrees, with a minor in Educational Studies.\nMy focus is on designing effective measures/assessments for teacher and student evaluation, which enable quasi-causal conclusions about underlying features and facilitate constructive educator training and school policy. I care about making a positive impact on individuals with my work through affecting institutional progress. More information about me can be found in my resume.\nI am interested in opportunities that further this vision; I appreciate all outreach :)"
   }
 ]

@@ -54,7 +54,10 @@ toc-expand: 3
 <div>*Los Angeles, CA*</div>
 :::
 
-- Worked with team to process and clean qualitative audio and video data to create speaker identity information for network-based analysis. Managed data preparation and organization. 
+- Processed and cleaned qualitative data from multi-participant conference audio and video recordings to construct transcripts with detailed speaker identity information to enable more detailed further research analysis.  
+- Utilized advanced transcription software and cloud-based file sharing platforms to efficiently manage, organize, and analyze large volumes of sensitive qualitative data while maintaining data-privacy standards.  
+- Addressed technical challenges in audio quality and speaker overlap, developing solutions to improve transcript accuracy and completeness for downstream research applications.
+- Maintained detailed documentation and records to ensure coordination of goals and workload among asynchronous teammates in remote work environment.
 
 
 <div style="height: 20px;"></div>
