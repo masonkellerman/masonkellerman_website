@@ -151,7 +151,7 @@ window.Quarto = {
   <ul>
   <li><a href="#resource-downloads" id="toc-resource-downloads" class="nav-link active" data-scroll-target="#resource-downloads">Resource Downloads</a></li>
   <li><a href="#project-overview" id="toc-project-overview" class="nav-link" data-scroll-target="#project-overview">Project Overview</a></li>
-  <li><a href="#graphical-results-tables-and-figures" id="toc-graphical-results-tables-and-figures" class="nav-link" data-scroll-target="#graphical-results-tables-and-figures">Graphical results: Tables and Figures</a></li>
+  <li><a href="#data-set" id="toc-data-set" class="nav-link" data-scroll-target="#data-set">Data Set</a></li>
   </ul>
 </nav>
     </div>
@@ -177,12 +177,13 @@ window.Quarto = {
 </header>
 
 
-<p><em>Data Analysis Project: Report; Poster, and Presentation</em></p>
+<p><big><em>Data Analysis Project: Report; Poster, and Presentation</em></big><br>
+<strong>Tools used</strong>: <code>R</code> (RStudio), <code>LaTeX</code> (Overleaf)</p>
 <section id="resource-downloads" class="level3">
 <h3 class="anchored" data-anchor-id="resource-downloads">Resource Downloads</h3>
 <p><big><strong>Download the <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Report_MasonKellerman.pdf">Report</a></strong></big> (<code>.pdf</code>)<br>
 <big><strong>Download <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Poster_MasonKellerman.pdf">poster</a>, and presentation <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Slides_MasonKellerman.pdf">slides</a></strong></big> (<code>.pdf</code>)<br>
-<big><strong>Download the constructed and cleaned <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Data_MasonKellerman.csv">Data Set</a></strong></big> (<code>.csv</code>, 6.1mb)</p>
+<big><strong>Download the <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Data_MasonKellerman.csv">Data Set</a></strong></big> (<code>.csv</code>, 6.1mb)</p>
 <div style="height: 10px;">
 
 </div>
@@ -194,8 +195,7 @@ window.Quarto = {
 <p>Using publicly available credit availability data from the <a href="https://opportunityinsights.org/data/">Opportunity Insights</a> organization, we combined the results from non-parametric Kruskall-Wallis tests, multiple regression, and Random Forest models to assess how racial and intergenerational factors lead to differential economic prosperity in adulthood, as measured by debt delinquency rate. We combined this data with local education rates to construct a fuller picture of socioeconomic context, which was included as predictor.</p>
 <p>We found that parental income is a significant predictor of debt delinquency rates in adulthood across the <span class="math inline">\(25^{\text{th}}\)</span>, <span class="math inline">\(50^{\text{th}}\)</span>, and <span class="math inline">\(75^{\text{th}}\)</span> percentile groups. Children from wealthier families are more likely to have better financial health.</p>
 <p>These findings were repeated when considering the broader childhood social environment; in addition, we found that there were highly significant differences by race/ethnicity, and significant but limited effects from local college education rates.</p>
-<p>As such, we recommend that financial well-being measures be targeted towards less wealthy families from typically disadvantaged race/ethnicities. The full results are compiled into a formal <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Report_MasonKellerman.pdf">report</a> which contains a more detailed background, literature review, and analytical methodology. We designed a conference <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Poster_MasonKellerman.pdf">poster</a> and <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Slides_MasonKellerman.pdf">slides</a> used in a presentation.</p>
-<p><strong>tools used</strong>: <code>R</code> (RStudio), <code>LaTeX</code> (Overleaf)</p>
+<p>As such, we recommend that financial well-being measures be targeted towards less wealthy families from typically disadvantaged race/ethnicities, as these features most strongly predict poorer financial health in adulthood. More research is suggested to determine the most efficacious interventions. The full results are compiled into a formal <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Report_MasonKellerman.pdf">report</a> which contains a more detailed literature review, methodology, and discussion of findings We also designed a conference <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Poster_MasonKellerman.pdf">poster</a> and <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Slides_MasonKellerman.pdf">slides</a> which were used to give a presentation of this material, targeting broad understanding.</p>
 <div style="height: 10px;">
 
 </div>
@@ -204,10 +204,12 @@ window.Quarto = {
 
 </div>
 </section>
-<section id="graphical-results-tables-and-figures" class="level3">
-<h3 class="anchored" data-anchor-id="graphical-results-tables-and-figures">Graphical results: Tables and Figures</h3>
-<p>A code book for the data set I created, combining the Opportunity Insights data with U.S. state and county FIPS identity codes and county-level four-yera college education rates. <img src="proj_files/proj_debtdelinquency/dataset_codebook.png" class="img-fluid"></p>
-<p><img src="proj_files/proj_debtdelinquency/test_graph.png" class="img-fluid" alt="Horizontal bar graph showing average debt delinquency by parental income percentile. Data from Opportunity Insights"></p>
+<section id="data-set" class="level3">
+<h3 class="anchored" data-anchor-id="data-set">Data Set</h3>
+<p>The data set is a combination of publicly available data, joined from several sources. The primary financial data is a combination of seven “Credit Access in the United States” by county <code>.csv</code> files from <a href="https://www.opportunityinsights.org/data">Opportunity Insights</a>, joined on cohort information. This was combined with FIPS identity codes for county and state abbreviations, available from the <a href="https://www.census.gov/library/reference/code-lists/ansi.html">U.S. Census Bureau</a>. I also joined this data with four year college education rates from the U.S. Census Bureau’s Decennial Census, hosted by the <a href="https://www.ers.usda.gov/data-products/county-level-data-sets/county-level-data-sets-download-data">USDA Economic Research Service</a>.</p>
+<p>The final data set contains information by cohort of income percentile group, race/ethnicity, and county for children born between 1978 and 1985. The debt delinquency variable tracks the fraction of individuals with a 90+ day delinquency between 2016–2020.</p>
+<p>A short code book is provided below, and <strong>the data set can be downloaded <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Data_MasonKellerman.csv">here</a></strong> (<code>.csv</code>, 6.1mb).</p>
+<p><img src="proj_files/proj_debtdelinquency/dataset_codebook.png" class="img-fluid" alt="[Code Book containing information about the variables in the provided data set. It contains: parental state (FIPS code and abbreviation), parental county (FIPS code and name), parental income percentile group, child race/ethnicity, credit score, loan balances (student, mortgage, auto), credit card balance, debt delinquency, income-adjusted debt delinquency, and four-year college education rates.]"></p>
 <div style="height: 10px;">
 
 </div>

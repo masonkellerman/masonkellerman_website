@@ -20,9 +20,9 @@ toc-expand: 3
 <div></div>
 :::
 
-  - *Psychology, B.A.*  
-  - *Statistics & Data Science, B.S.*  
-    - Educational Studies Minor
+  - **Psychology, B.A.**  
+  - **Statistics & Data Science, B.S.**  
+  - *Educational Studies Minor*
 
 
 
