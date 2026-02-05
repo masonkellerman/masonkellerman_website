@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -115,8 +144,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#resource-downloads" id="toc-resource-downloads" class="nav-link active" data-scroll-target="#resource-downloads">Resource Downloads</a></li>
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link" data-scroll-target="#project-overview">Project Overview</a></li>
+  <li><a href="#graphical-results-tables-and-figures" id="toc-graphical-results-tables-and-figures" class="nav-link" data-scroll-target="#graphical-results-tables-and-figures">Graphical results: Tables and Figures</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -141,19 +178,24 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><em>Data Analysis Project: Report; Poster, and Presentation</em></p>
-<p><big><strong>Download the Report <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Report_MasonKellerman.pdf">here</a></strong></big> (<code>.pdf</code>)<br>
-<small>(get source file <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Report_MasonKellerman.tex">here</a>) (<code>.tex</code>)</small><br>
-<big><strong>View poster <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Poster_MasonKellerman.pdf">here</a></strong></big><br>
-<small>(get source file <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Poster_MasonKellerman.tex">here</a>) (<code>.tex</code>)</small><br>
-<big><strong>View presentation slides <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Slides_MasonKellerman.pdf">here</a></strong></big></p>
+<section id="resource-downloads" class="level3">
+<h3 class="anchored" data-anchor-id="resource-downloads">Resource Downloads</h3>
+<p><big><strong>Download the <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Report_MasonKellerman.pdf">Report</a></strong></big> (<code>.pdf</code>)<br>
+<big><strong>Download <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Poster_MasonKellerman.pdf">poster</a>, and presentation <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Slides_MasonKellerman.pdf">slides</a></strong></big> (<code>.pdf</code>)<br>
+<big><strong>Download the constructed and cleaned <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Data_MasonKellerman.csv">Data Set</a></strong></big> (<code>.csv</code>, 6.1mb)</p>
 <div style="height: 10px;">
 
 </div>
 <hr>
-<p>Financial stability is deeply associated with quality of life in the U.S.; the role of contextual factors in economic prosperity is similarly well established.</p>
-<p>Using data from <a href="https://opportunityinsights.org/data/">Opportunity Insights</a>, my team and I used non-parametric methods of analysis to assess how racial and intergenerational factors lead to differential economic prosperity, as measured by the debt delinquency rate. Since the data is split by U.S. county, we also investigate differences across state and county, incorporating limited environmental factors such as county-level racial diversity.</p>
-<p>We compiled a <a href="../inprogress.html">report</a> that contains our findings in more detail, and designed a <a href="../inprogress.html">poster</a> to effectively communicate these results to a mass audience. A set of <a href="../inprogress.html">slides</a> was also created for an in-class presentation.</p>
-<p><strong>tools used</strong>: <code>R</code>, <code>LaTeX</code>, <code>Quarto</code></p>
+</section>
+<section id="project-overview" class="level3">
+<h3 class="anchored" data-anchor-id="project-overview">Project Overview</h3>
+<p>Financial stability has been strongly associated with quality of life across a number of metrics, and can serve as an important and more quantifiable indicator of well-being for policy makers. By determining the extent to which a person’s childhood socioeconomic environment predicts their financial success in adulthood, we lay the groundwork to direct future social welfare interventions to target the most under-served demographic groups.</p>
+<p>Using publicly available credit availability data from the <a href="https://opportunityinsights.org/data/">Opportunity Insights</a> organization, we combined the results from non-parametric Kruskall-Wallis tests, multiple regression, and Random Forest models to assess how racial and intergenerational factors lead to differential economic prosperity in adulthood, as measured by debt delinquency rate. We combined this data with local education rates to construct a fuller picture of socioeconomic context, which was included as predictor.</p>
+<p>We found that parental income is a significant predictor of debt delinquency rates in adulthood across the <span class="math inline">\(25^{\text{th}}\)</span>, <span class="math inline">\(50^{\text{th}}\)</span>, and <span class="math inline">\(75^{\text{th}}\)</span> percentile groups. Children from wealthier families are more likely to have better financial health.</p>
+<p>These findings were repeated when considering the broader childhood social environment; in addition, we found that there were highly significant differences by race/ethnicity, and significant but limited effects from local college education rates.</p>
+<p>As such, we recommend that financial well-being measures be targeted towards less wealthy families from typically disadvantaged race/ethnicities. The full results are compiled into a formal <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Report_MasonKellerman.pdf">report</a> which contains a more detailed background, literature review, and analytical methodology. We designed a conference <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Poster_MasonKellerman.pdf">poster</a> and <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Slides_MasonKellerman.pdf">slides</a> used in a presentation.</p>
+<p><strong>tools used</strong>: <code>R</code> (RStudio), <code>LaTeX</code> (Overleaf)</p>
 <div style="height: 10px;">
 
 </div>
@@ -161,9 +203,22 @@ ul.task-list li input[type="checkbox"] {
 <div style="height: 10px;">
 
 </div>
-<p>Graphical results (to be updated later): <img src="proj_files/proj_debtdelinquency/test_graph.png" class="img-fluid" alt="Horizontal bar graph showing average debt delinquency by parental income percentile. Data from Opportunity Insights"></p>
+</section>
+<section id="graphical-results-tables-and-figures" class="level3">
+<h3 class="anchored" data-anchor-id="graphical-results-tables-and-figures">Graphical results: Tables and Figures</h3>
+<p>A code book for the data set I created, combining the Opportunity Insights data with U.S. state and county FIPS identity codes and county-level four-yera college education rates. <img src="proj_files/proj_debtdelinquency/dataset_codebook.png" class="img-fluid"></p>
+<p><img src="proj_files/proj_debtdelinquency/test_graph.png" class="img-fluid" alt="Horizontal bar graph showing average debt delinquency by parental income percentile. Data from Opportunity Insights"></p>
+<div style="height: 10px;">
+
+</div>
+<hr>
+<div style="height: 10px;">
+
+</div>
+<p><small>(download the <code>.tex</code> source file for the report <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Report_MasonKellerman.tex">here</a>, and for the poster <a href="proj_files/proj_debtdelinquency/DebtDelinquency_Poster_MasonKellerman.tex">here</a>) </small></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

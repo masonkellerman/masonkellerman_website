@@ -9,32 +9,50 @@ format: html
 
 *Data Analysis Project: Report; Poster, and Presentation*
 
-<big>**Download the Report [here](proj_files/proj_debtdelinquency/DebtDelinquency_Report_MasonKellerman.pdf)**</big> (`.pdf`)  
-<small>(get source file [here](proj_files/proj_debtdelinquency/DebtDelinquency_Report_MasonKellerman.tex)) (`.tex`)</small>  
-<big>**View poster [here](proj_files/proj_debtdelinquency/DebtDelinquency_Poster_MasonKellerman.pdf)**</big>  
-<small>(get source file [here](proj_files/proj_debtdelinquency/DebtDelinquency_Poster_MasonKellerman.tex)) (`.tex`)</small>  
-<big>**View presentation slides [here](proj_files/proj_debtdelinquency/DebtDelinquency_Slides_MasonKellerman.pdf)**</big>  
+### Resource Downloads  
+<big>**Download the [Report](proj_files/proj_debtdelinquency/DebtDelinquency_Report_MasonKellerman.pdf)**</big> (`.pdf`)  
+<big>**Download [poster](proj_files/proj_debtdelinquency/DebtDelinquency_Poster_MasonKellerman.pdf), and presentation  [slides](proj_files/proj_debtdelinquency/DebtDelinquency_Slides_MasonKellerman.pdf)**</big> (`.pdf`)  
+<big>**Download the constructed and cleaned [Data Set](proj_files/proj_debtdelinquency/DebtDelinquency_Data_MasonKellerman.csv)**</big> (`.csv`, 6.1mb)  
 
 
 <div style="height: 10px;"></div>
 <hr>
 
+### Project Overview
 
-Financial stability is deeply associated with quality of life in the U.S.; the role of contextual factors in economic prosperity is similarly well established. 
+Financial stability has been strongly associated with quality of life across a number of metrics, and can serve as an important and more quantifiable indicator of well-being for policy makers. By determining the extent to which a person's childhood socioeconomic environment predicts their financial success in adulthood, we lay the groundwork to direct future social welfare interventions to target the most under-served demographic groups.
 
-Using data from [Opportunity Insights](https://opportunityinsights.org/data/), my team and I used non-parametric methods of analysis to assess how racial and intergenerational factors lead to differential economic prosperity, as measured by the debt delinquency rate. Since the data is split by U.S. county, we also investigate differences across state and county, incorporating limited environmental factors such as county-level racial diversity.
+Using publicly available credit availability data from the [Opportunity Insights](https://opportunityinsights.org/data/) organization, we combined the results from non-parametric Kruskall-Wallis tests, multiple regression, and Random Forest models to assess how racial and intergenerational factors lead to differential economic prosperity in adulthood, as measured by debt delinquency rate. We combined this data with local education rates to construct a fuller picture of socioeconomic context, which was included as predictor. 
 
-We compiled a [report](/inprogress.qmd) that contains our findings in more detail, and designed a [poster](/inprogress.qmd) to effectively communicate these results to a mass audience. A set of [slides](/inprogress.qmd) was also created for an in-class presentation.
+We found that parental income is a significant predictor of debt delinquency rates in adulthood across the $25^{\text{th}}$, $50^{\text{th}}$, and $75^{\text{th}}$ percentile groups. Children from wealthier families are more likely to have better financial health.
+
+These findings were repeated when considering the broader childhood social environment; in addition, we found that there were highly significant differences by race/ethnicity, and significant but limited effects from local college education rates.
+
+As such, we recommend that financial well-being measures be targeted towards less wealthy families from typically disadvantaged race/ethnicities. The full results are compiled into a formal [report](proj_files/proj_debtdelinquency/DebtDelinquency_Report_MasonKellerman.pdf) which contains a more detailed background, literature review, and analytical methodology. We designed a conference [poster](proj_files/proj_debtdelinquency/DebtDelinquency_Poster_MasonKellerman.pdf) and  [slides](proj_files/proj_debtdelinquency/DebtDelinquency_Slides_MasonKellerman.pdf) used in a presentation.
 
 
-**tools used**: `R`, `LaTeX`, `Quarto`
+**tools used**: `R` (RStudio), `LaTeX` (Overleaf)
 
 <div style="height: 10px;"></div>
 <hr>
 <div style="height: 10px;"></div>
 
-Graphical results (to be updated later):
+### Graphical results: Tables and Figures
+
+A code book for the data set I created, combining the Opportunity Insights data with U.S. state and county FIPS identity codes and county-level four-yera college education rates. 
+![](proj_files/proj_debtdelinquency/dataset_codebook.png)
+
 ![](proj_files/proj_debtdelinquency/test_graph.png){fig-alt="Horizontal bar graph showing average debt delinquency by parental income percentile. Data from Opportunity Insights"}
+
+
+
+<div style="height: 10px;"></div>
+<hr>
+<div style="height: 10px;"></div>
+
+<small>(download the `.tex` source file for the report [here](proj_files/proj_debtdelinquency/DebtDelinquency_Report_MasonKellerman.tex), and for the poster [here](proj_files/proj_debtdelinquency/DebtDelinquency_Poster_MasonKellerman.tex)) </small>  
+
+
 
 
 
