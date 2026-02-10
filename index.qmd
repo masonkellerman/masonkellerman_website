@@ -15,7 +15,7 @@ about:
       href: "https://github.com/masonkellerman"
     - icon: linkedin
       text: linkedin
-      url: "https://www.linkedin.com/in/masonkellerman1/"
+      url: "https://www.linkedin.com/in/masonkellerman/"
     - icon: bi-file-earmark-arrow-down-fill
       text: resume
       url: "resume_MasonKellerman.pdf"
